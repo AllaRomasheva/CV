@@ -184,33 +184,6 @@ profiles:
     summary: /allaromasheva
     url: https://github.com/allaromasheva
 
-## Education
-education:
-
-  - name: College
-    type: college
-    date_start: 2013-09-01 00:00
-    date_end: 2017-06-01 00:00
-    location: Ukraine
-    url: ''
-    description: ''
-    summary: |
-      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-      Quisque aliquam velit orci, nec egestas nibh facilisis at. Cras pretium cursus leo, eu posuere arcu
-      semper non. Quisque feugiat rhoncus orci euismod varius.
-
-  - name: School
-    type: school
-    date_start: 2004-09-01 00:00
-    date_end: 2013-06-01 00:00
-    location: Ukraine
-    url: ''
-    description: ''
-    summary: |
-      Proin eget blandit erat. Donec egestas ut lacus nec tempor.
-      Donec lacus est, pulvinar eget nisl sed, imperdiet tempus quam. Quisque quis mauris id urna semper vestibulum.
-      Donec non nisl eros. Sed dignissim ipsum metus, sed semper elit bibendum eu.
-
 ## Career
 
 work:
@@ -239,9 +212,14 @@ work:
       - Aliquam faucibus mi dictum tristique laoreet.
 
     projects:
-#      - image: https://picsum.photos/1280/720
-#        summary: Etiam in rhoncus mauris, sed posuere tortor
-
+      - image: https://picsum.photos/1280/720
+        summary: Etiam in rhoncus mauris, sed posuere tortor
+      - image: https://picsum.photos/1280/720
+        summary: Etiam in rhoncus mauris, sed posuere tortor
+      - image: https://picsum.photos/1280/720
+        summary: Etiam in rhoncus mauris, sed posuere tortor
+      - image: https://picsum.photos/1280/720
+        summary: Etiam in rhoncus mauris, sed posuere tortor
   ## Employer End
 
   ## Employer Start
@@ -264,7 +242,14 @@ work:
         - Working with a disciplinary developers team to convert business needs into technical specifications.
 
     projects:
-
+      - image: https://picsum.photos/1280/720
+        summary: Etiam in rhoncus mauris, sed posuere tortor
+      - image: https://picsum.photos/1280/720
+        summary: Etiam in rhoncus mauris, sed posuere tortor
+      - image: https://picsum.photos/1280/720
+        summary: Etiam in rhoncus mauris, sed posuere tortor
+      - image: https://picsum.photos/1280/720
+        summary: Etiam in rhoncus mauris, sed posuere tortor
   ## Employer End
 
   ## Employer Start
@@ -286,5 +271,40 @@ work:
       - Performance testing the application as part of the development process.
 
     projects:
-
+      - image: https://picsum.photos/1280/720
+        summary: Etiam in rhoncus mauris, sed posuere tortor
+      - image: https://picsum.photos/1280/720
+        summary: Etiam in rhoncus mauris, sed posuere tortor
+      - image: https://picsum.photos/1280/720
+        summary: Etiam in rhoncus mauris, sed posuere tortor
+      - image: https://picsum.photos/1280/720
+        summary: Etiam in rhoncus mauris, sed posuere tortor
   ## Employer End
+
+
+## Education
+education:
+
+  - name: College
+    type: college
+    date_start: 2013-09-01 00:00
+    date_end: 2017-06-01 00:00
+    location: Ukraine
+    url: ''
+    description: ''
+    summary: |
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+      Quisque aliquam velit orci, nec egestas nibh facilisis at. Cras pretium cursus leo, eu posuere arcu
+      semper non. Quisque feugiat rhoncus orci euismod varius.
+
+  - name: School
+    type: school
+    date_start: 2004-09-01 00:00
+    date_end: 2013-06-01 00:00
+    location: Ukraine
+    url: ''
+    description: ''
+    summary: |
+      Proin eget blandit erat. Donec egestas ut lacus nec tempor.
+      Donec lacus est, pulvinar eget nisl sed, imperdiet tempus quam. Quisque quis mauris id urna semper vestibulum.
+      Donec non nisl eros. Sed dignissim ipsum metus, sed semper elit bibendum eu.
