@@ -9,5 +9,7 @@
         <i class="m-auto"></i>
         <span class="normal small">{% include period start=item.date_start end=item.date_end %}</span>
     </h3>
+    {% if item.summary %}
     {{ item.summary | markdownify }}
+    {% endif %}
 </article>

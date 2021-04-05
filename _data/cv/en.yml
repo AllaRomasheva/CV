@@ -239,18 +239,9 @@ work:
       - Aliquam faucibus mi dictum tristique laoreet.
 
     projects:
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
+#      - image: https://picsum.photos/1280/720
+#        summary: Etiam in rhoncus mauris, sed posuere tortor
+
   ## Employer End
 
   ## Employer Start
@@ -266,23 +257,14 @@ work:
       Cras congue auctor efficitur.
 
     duties: |
-      Pellentesque sem ex, ultricies non posuere ornare, scelerisque non nisi.
-      Aenean sed turpis nec mi congue
-      porta sit amet sed dolor.
+        - Building websites and application using Velocity template engine with Spring MVC as backend.
+        - Developing compatible UI functionality using native javascript & jQuery framework
+        - Successful work with analysts and managers to provide an excellent requirement for further development process.
+        - Optimizing web assets for optimal speed and performance.
+        - Working with a disciplinary developers team to convert business needs into technical specifications.
 
     projects:
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
+
   ## Employer End
 
   ## Employer Start
@@ -298,21 +280,11 @@ work:
       Cras congue auctor efficitur.
 
     duties: |
-      Pellentesque sem ex, ultricies non posuere ornare, scelerisque non nisi.
-      Aenean sed turpis nec mi congue
-      porta sit amet sed dolor. Ut ex risus, suscipit laoreet rhoncus at, luctus et arcu.
+      - Designing and deciding on the visual layout of a website.
+      - Acting as a channel between the business, customers and developers.
+      - Back end development and maintenance of websites.
+      - Performance testing the application as part of the development process.
 
     projects:
-      - image: https://picsum.photos/1280/720
-        summary: Jksjdkasjd ajskd alksjd lkajslkdas
-      - image: https://picsum.photos/1280/720
-        summary: Jksjdkasjd ajskd alksjd lkajslkdas
-      - image: https://picsum.photos/1280/720
-        summary: Jksjdkasjd ajskd alksjd lkajslkdas
-      - image: https://picsum.photos/1280/720
-        summary: Jksjdkasjd ajskd alksjd lkajslkdas
-      - image: https://picsum.photos/1280/720
-        summary: Jksjdkasjd ajskd alksjd lkajslkdas
-      - image: https://picsum.photos/1280/720
-        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+
   ## Employer End

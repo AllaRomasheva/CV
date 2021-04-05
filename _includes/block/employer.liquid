@@ -18,9 +18,14 @@
         <i class="m-auto"></i>
         <span class="normal small">{% include period start=item.date_start end=item.date_end %}</span>
     </h3>
+    {% if item.summary %}
     {{ item.summary | markdownify }}
+    {% endif %}
+    {% if item.duties %}
     <h4 class="fs-6">{% include i18n id="Duties" %}:</h4>
     {{ item.duties | markdownify }}
+    {% endif %}
+    {% if item.projects %}
     <h4 class="fs-6">{% include i18n id="Featured projects" %}:</h4>
     <ul class="cv-project-list">
         {% for project in item.projects %}
@@ -37,4 +42,5 @@
         </li>
         {% endfor %}
     </ul>
+    {% endif %}
 </article>
