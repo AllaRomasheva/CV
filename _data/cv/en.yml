@@ -1,0 +1,318 @@
+name: Alla Romasheva
+position: UI/UX Designer
+image: https://romasheva.com/assets/images/alla.romasheva.jpeg
+
+address: Kyiv, Kyiv region, Ukraine
+
+website:
+  url: https://romasheva.design
+  label: romasheva.design
+
+email:
+  url: mailto:hire@romasheva.cv
+  label: hire@romasheva.cv
+
+phone:
+  url: tel:380939257212
+  label: +380 939 257 212
+
+summary: |
+  I'm a Freelance UI/UX Designer based in Kyiv, Ukraine 🇺🇦 I focus on creating simple, intuitive web projects.
+
+## Skills
+
+skills:
+  hard:
+    - Design Principles
+    - Visual Communication
+    - Information Architecture
+    - Wireframing & Prototyping
+    - Usability & Research
+    - Analytics & User Testing
+    - Responsive Web Design
+    - SEO & Accessibility
+    - Pitch Deck Design
+    - Photography
+    - Mentoring
+  soft:
+    - Design Thinking
+    - Problem Solving
+    - Critical Thinking
+    - Adaptability & Flexibility
+    - Curious much
+    - Forever Learning & Recycling
+    - Minimalist Mindset
+
+## Languages
+
+languages:
+
+  - name: Ukrainian
+    value: 80
+    level: advanced
+    color: var(--color-success)
+
+  - name: Russian
+    value: 90
+    level: native speaker
+    color: var(--color-success)
+
+  - name: English
+    value: 15
+    level: elementary
+    color: var(--color-pink)
+
+
+## Interests & Hobby
+
+interests:
+
+  - name: Books
+    icon: book-reader
+    summary: Reading books
+
+  - name: Health
+    icon: heartbeat
+    summary: adsfa sdfa sdfasdf
+
+  - name: Travel
+    icon: plane
+    summary: asdf asdfasdfa sdfasdf asdf asdfasdfa
+
+  - name: Learning
+    icon: brain
+    summary: asdfasd fadsfasdfa dsfasd fas  asd asddfasdf
+
+  - name: Gaming
+    icon: gamepad
+    summary: adsfads addsf adsfa dsfasdf asdfasdfa
+
+  - name: Animals
+    icon: cat
+    summary: asdfasdfasd adsfas dfasdf asdfadsf
+
+## Experience
+
+experience:
+
+  - name: Frontend
+    list:
+      - name: CSS & HTML
+        value: 3
+      - name: Microdata
+        value: 2
+      - name: Web Standards
+        value: 2
+      - name: JavaScript
+        value: 0
+
+  - name: Software
+    list:
+      - name: Figma
+        value: 5
+      - name: Sketch
+        value: 4
+      - name: WebStorm IDE
+        value: 4
+      - name: Gravit Designer
+        value: 3
+      - name: Illustrator
+        value: 3
+      - name: Photoshop
+        value: 2
+
+  - name: Tools & Services
+    list:
+      - name: Git (GitHub)
+        value: 4
+      - name: Jira / Confluence
+        value: 3
+
+  - name: Operating systems
+    list:
+      - name: macOS
+        value: 4
+      - name: Windows
+        value: 3
+      - name: Linux
+        value: 1
+
+
+## Profiles
+
+profiles:
+
+  - name: Instagram
+    icon: instagram-square
+    color: c-instagram
+    summary: /romasheva.design
+    url: https://www.instagram.com/romasheva.design/
+
+  - name: Behance
+    icon: behance-square
+    color: c-behance
+    summary: /romasheva
+    url: https://www.behance.net/romasheva
+
+  - name: Dribbble
+    icon: dribbble-square
+    color: c-dribbble
+    summary: /romasheva
+    url: https://dribbble.com/romasheva
+
+  - name: Facebook
+    icon: facebook-square
+    color: c-facebook
+    summary: /romasheva.design
+    url: https://www.facebook.com/romasheva.design
+
+  - name: Twitter
+    color: c-twitter
+    icon: twitter-square
+    summary: /AllaRomasheva
+    url: https://twitter.com/AllaRomasheva
+
+  - name: LinkedIn
+    icon: linkedin-square
+    color: c-linkedin
+    summary: /in/romasheva
+    url: https://www.linkedin.com/in/romasheva/
+
+  - name: GitHub
+    icon: github-square
+    color: c-github
+    summary: /allaromasheva
+    url: https://github.com/allaromasheva
+
+## Education
+education:
+
+  - name: College
+    type: college
+    date_start: 2013-09-01 00:00
+    date_end: 2017-06-01 00:00
+    location: Ukraine
+    url: ''
+    description: ''
+    summary: |
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+      Quisque aliquam velit orci, nec egestas nibh facilisis at. Cras pretium cursus leo, eu posuere arcu
+      semper non. Quisque feugiat rhoncus orci euismod varius.
+
+  - name: School
+    type: school
+    date_start: 2004-09-01 00:00
+    date_end: 2013-06-01 00:00
+    location: Ukraine
+    url: ''
+    description: ''
+    summary: |
+      Proin eget blandit erat. Donec egestas ut lacus nec tempor.
+      Donec lacus est, pulvinar eget nisl sed, imperdiet tempus quam. Quisque quis mauris id urna semper vestibulum.
+      Donec non nisl eros. Sed dignissim ipsum metus, sed semper elit bibendum eu.
+
+## Career
+
+work:
+
+  ## Employer Start
+  - name: Freelancer
+    url: htts://barbaricum.kiev.ua/
+    date_start: 2016-03-18 00:00
+    date_end: null
+    position: UI/UX Designer
+    address: Kyiv, Kyiv region, Ukraine
+    summary: |
+      Nam id mauris leo. Cras nibh ligula, convallis at posuere quis, lacinia a sem.
+      Fusce pellentesque [consectetur](https://google.com) enim eu tempus.
+      Cras congue auctor efficitur.
+    duties: |
+      Pellentesque sem ex, ultricies non posuere ornare, scelerisque non nisi.
+      Aenean sed turpis nec mi congue porta sit amet sed dolor.
+
+      Ut ex risus, suscipit laoreet rhoncus at, luctus et arcu.
+
+      ashdjfha sjdhflajsdh flajksh dfljkah sdlkjfhalskjdh
+
+      - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      - Nunc fermentum elit non nisl vehicula, nec sodales enim vulputate.
+      - Aliquam faucibus mi dictum tristique laoreet.
+
+    projects:
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+  ## Employer End
+
+  ## Employer Start
+  - name: UAZMI
+    url: htts://uazmi.org/
+    date_start: 2016-03-18 00:00
+    date_end: 2017-03-18 00:00
+    position: Product Designer
+    address: Kyiv, Kyiv region, Ukraine
+    summary: |
+      Nam id mauris leo. Cras nibh ligula, convallis at posuere quis, lacinia a sem.
+      Fusce pellentesque consectetur enim eu tempus.
+      Cras congue auctor efficitur.
+
+    duties: |
+      Pellentesque sem ex, ultricies non posuere ornare, scelerisque non nisi.
+      Aenean sed turpis nec mi congue
+      porta sit amet sed dolor.
+
+    projects:
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+  ## Employer End
+
+  ## Employer Start
+  - name: Barbaricum
+    url: htts://barbaricum.kiev.ua/
+    date_start: 2016-03-18 00:00
+    date_end: 2017-03-18 00:00
+    position: Product Designer
+    address: Kyiv, Kyiv region, Ukraine
+    summary: |
+      Nam id mauris leo. Cras nibh ligula, convallis at posuere quis, lacinia a sem.
+      Fusce pellentesque consectetur enim eu tempus.
+      Cras congue auctor efficitur.
+
+    duties: |
+      Pellentesque sem ex, ultricies non posuere ornare, scelerisque non nisi.
+      Aenean sed turpis nec mi congue
+      porta sit amet sed dolor. Ut ex risus, suscipit laoreet rhoncus at, luctus et arcu.
+
+    projects:
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+      - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
+  ## Employer End

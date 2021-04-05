@@ -12,13 +12,29 @@
   &-content{
     display:flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-
-    .ratio{
-      cursor:pointer;
-      max-width:64rem;
-    }
+  }
+  &-wrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+  }
+  &-summary{
+    display:none;
+    padding:.5rem 1rem;
+    max-width:64rem;
+    width:100%;
+    background-color:#000;
+    color:#fff;
+  }
+  &-preview{
+    @extend .ratio;
+    @extend .ratio-16x9;
+    max-width:64rem;
+    cursor:pointer;
+    position:relative;
+    z-index:10;
   }
   &.active &-content{
     position: fixed;
@@ -29,6 +45,9 @@
     right:0;
     padding:var(--grid-gap);
     z-index:900;
+  }
+  &.active &-summary{
+    display:block;
   }
   &.active &-backdrop{
     position: fixed;

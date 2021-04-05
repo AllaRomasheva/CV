@@ -57,14 +57,16 @@ function bind(parent,event,selector,callback){
 
 (function(){
 
-    bind(document,'click','.image-thumb',function(ev){
+    function togglePreview(ev){
         ev.preventDefault();
         let html = document.documentElement;
         let scrollbar = window.innerWidth - document.documentElement.clientWidth;
         let state = html.classList.toggle('show-image',this.classList.toggle('active'));
         html.classList.toggle('hide-image',state === false);
         html.style.setProperty('--scrollbar', String(scrollbar) );
-    });
+    }
+
+    bind(document,'click','.image-thumb',togglePreview);
 
     bind(document,'click','[data-nav]',function(ev){
         ev.preventDefault();

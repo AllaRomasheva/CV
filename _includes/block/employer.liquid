@@ -27,10 +27,12 @@
         <li class="cv-project-item image-thumb">
             <div class="image-thumb-backdrop"></div>
             <div class="image-thumb-content">
-                <div class="ratio ratio-16x9">
-                    <img loading="lazy" src="{{ project.image | append: '?random=' | append: parent | append: forloop.index }}">
+                <div class="image-thumb-wrapper">
+                    <div class="image-thumb-preview">
+                        <img loading="lazy" src="{{ project.image | append: '?random=' | append: parent | append: forloop.index }}">
+                    </div>
+                    <div class="image-thumb-summary">{{ project.summary }}</div>
                 </div>
-                <div class="image-thumb-summary">{{ project.summary }}</div>
             </div>
         </li>
         {% endfor %}

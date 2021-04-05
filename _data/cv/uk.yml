@@ -1,8 +1,8 @@
-name: Alla Romasheva
-position: UI/UX Designer
+name: Алла Ромашева
+position: UI/UX Дизайнер
 image: https://romasheva.com/assets/images/alla.romasheva.jpeg
 
-address: Kyiv, Kyiv region, Ukraine
+address: Київ, Україна
 
 website:
   url: https://romasheva.design
@@ -17,49 +17,47 @@ phone:
   label: +380 939 257 212
 
 summary: |
-  I'm a Freelance UI/UX Designer based in Kyiv, Ukraine 🇺🇦 I focus on creating simple, intuitive user experiences.
+  Фріланс UI/UX дизайнер, знаходжусь в Києві , Україна 🇺🇦 Зосереджена на створенні простих, інтуїтивно зрозумілих веб-проектів.
 
 ## Skills
 
 skills:
   hard:
-    - Design Principles
-    - Visual Communication
-    - Information Architecture
-    - Wireframing & Prototyping
-    - Usability & Research
-    - Analytics & User Testing
-    - Responsive Web Design
-    - SEO & Accessibility
-    - Pitch Deck Design
-    - Photography
-    - Mentoring
+    - Принципи проектування
+    - Візуальна комунікація
+    - Інформаційна архітектура
+    - Вайрфреймінг та прототипування
+    - Юзабіліті та дослідження
+    - Аналітика та тестування
+    - Адаптивний веб-дизайн
+    - SEO та Доступність
+    - Наставництво
   soft:
-    - Design Thinking
-    - Problem Solving
-    - Critical Thinking
-    - Adaptability & Flexibility
-    - Curious much
-    - Forever Learning & Recycling
-    - Minimalist Mindset
+    - Дизайнерське мислення
+    - Вирішення проблем
+    - Критичне мислення
+    - Адаптованість та гнучкість
+    - Цікавість до всього
+    - Навчання та переосмислення
+    - Мінімалістичне мислення
 
 ## Languages
 
 languages:
 
-  - name: Ukrainian
-    value: 80
-    level: advanced
+  - name: Українська
+    value: 95
+    level: рідна мова
     color: var(--color-success)
 
-  - name: Russian
-    value: 90
-    level: native speaker
+  - name: Російьска
+    value: 85
+    level: вільне спілкування
     color: var(--color-success)
 
-  - name: English
+  - name: Англійська
     value: 15
-    level: elementary
+    level: базовий
     color: var(--color-pink)
 
 
@@ -67,35 +65,35 @@ languages:
 
 interests:
 
-  - name: Books
+  - name: Книги
     icon: book-reader
-    summary: Reading books
+    summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
-  - name: Health
+  - name: Здоров'я
     icon: heartbeat
-    summary: adsfa sdfa sdfasdf
+    summary: Etiam in rhoncus mauris, sed posuere tortor
 
-  - name: Travel
+  - name: Подорожі
     icon: plane
-    summary: asdf asdfasdfa sdfasdf asdf asdfasdfa
+    summary: Maecenas sit amet felis in enim bibendum blandit
 
-  - name: Learning
+  - name: Навчання
     icon: brain
-    summary: asdfasd fadsfasdfa dsfasd fas  asd asddfasdf
+    summary: In in lorem lacus. Interdum et malesuada fames ac ante
 
-  - name: Gaming
+  - name: Ігри
     icon: gamepad
-    summary: adsfads addsf adsfa dsfasdf asdfasdfa
+    summary: Vivamus congue laoreet tellus nec congue
 
-  - name: Animals
+  - name: Тварини
     icon: cat
-    summary: asdfasdfasd adsfas dfasdf asdfadsf
+    summary: Nam ullamcorper tellus lobortis sem viverra porta.
 
 ## Experience
 
 experience:
 
-  - name: Frontend
+  - name: Фронтенд Розробка
     list:
       - name: CSS & HTML
         value: 3
@@ -106,13 +104,13 @@ experience:
       - name: JavaScript
         value: 0
 
-  - name: Software
+  - name: Програмне забезпечення
     list:
       - name: Figma
         value: 5
       - name: Sketch
         value: 4
-      - name: XD
+      - name: WebStorm IDE
         value: 4
       - name: Gravit Designer
         value: 3
@@ -121,14 +119,14 @@ experience:
       - name: Photoshop
         value: 2
 
-  - name: Tools & Services
+  - name: Інструменти та сервіси
     list:
       - name: Git (GitHub)
         value: 4
       - name: Jira / Confluence
         value: 3
 
-  - name: Operating systems
+  - name: Операційні системи
     list:
       - name: macOS
         value: 4
@@ -187,19 +185,7 @@ profiles:
 ## Education
 education:
 
-  - name: Cources
-    type: cources
-    date_start: 2013-09-01 00:00
-    date_end: 2017-06-01 00:00
-    location: Ukraine
-    url: ''
-    description: ''
-    summary: |
-      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-      Quisque aliquam velit orci, nec egestas nibh facilisis at. Cras pretium cursus leo, eu posuere arcu
-      semper non. Quisque feugiat rhoncus orci euismod varius.
-
-  - name: College
+  - name: Інститут
     type: college
     date_start: 2013-09-01 00:00
     date_end: 2017-06-01 00:00
@@ -211,7 +197,7 @@ education:
       Quisque aliquam velit orci, nec egestas nibh facilisis at. Cras pretium cursus leo, eu posuere arcu
       semper non. Quisque feugiat rhoncus orci euismod varius.
 
-  - name: School
+  - name: Школа
     type: school
     date_start: 2004-09-01 00:00
     date_end: 2013-06-01 00:00
@@ -252,11 +238,17 @@ work:
 
     projects:
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
   ## Employer End
 
   ## Employer Start
@@ -278,11 +270,17 @@ work:
 
     projects:
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
   ## Employer End
 
   ## Employer Start
@@ -304,9 +302,15 @@ work:
 
     projects:
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
       - image: https://picsum.photos/1280/720
+        summary: Jksjdkasjd ajskd alksjd lkajslkdas
   ## Employer End
