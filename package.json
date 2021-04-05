@@ -1,0 +1,7 @@
+{
+  "name": "romasheva.cv",
+  "scripts": {
+    "sprite": "svgeez build --source assets/icons/ --destination assets/sprite.svg --prefix ''",
+    "sprite:watch": "svgeez watch --source assets/icons/ --destination assets/sprite.svg --prefix ''"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script>
+        let head = document.querySelector('head');
+        let supported = ['en', 'uk', 'ru'];
+        let link = document.createElement('a');
+        let language = navigator.languages.map(function (item) {
+            return item.split('-')[0];
+        }).filter(function (value, index, self) {
+            return self.indexOf(value) === index && supported.indexOf(value) > -1;
+        }).shift();
+        let node = document.createElement('link');
+        language = language || 'en';
+        node.rel = 'canonical';
+        link.href = ['', language, ''].join('/');
+        node.href = link.href;
+        head.appendChild(node);
+        document.documentElement.lang = language;
+        let canonical = document.querySelector('link[rel="canonical"]');
+        if (canonical) {
+            location.assign(canonical.href);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

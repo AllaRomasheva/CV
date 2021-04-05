@@ -1,0 +1,61 @@
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+exclude:
+  - .idea
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+
+timezone: Europe/Kiev
+markdown: kramdown
+repository: kosatyi/romasheva.cv
+title: ''
+email: alla@romasheva.com
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ''
+url: ''
+
+author:
+  name: Alla Romasheva
+  twitter: AllaRomasheva
+
+twitter:
+  username: AllaRomasheva
+  card: summary_large_image
+
+defaults:
+  - scope:
+      path: ''
+    values:
+      lang: 'en'
+      layout: 'default'
+      alternate:
+        en: '/en/'
+        ru: '/ru/'
+        uk: '/uk/'
+      image:
+        path: '/assets/images/cover.jpg'
+        width: '1000'
+        height: '600'
+  - scope:
+      path: 'ru'
+    values:
+      lang: 'ru'
+  - scope:
+      path: 'uk'
+    values:
+      lang: 'uk'
+  - scope:
+      path: 'en'
+    values:
+      lang: 'en'

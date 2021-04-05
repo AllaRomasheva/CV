@@ -1,0 +1,13 @@
+<article itemprop="{{ include.itemprop }}" itemscope itemtype="http://schema.org/EducationalOrganization">
+    <meta content="{{ item.name }}" itemprop="name">
+    <meta content="{{ item.url }}" itemprop="url">
+    <meta content="{{ item.description }}" itemprop="description">
+    <meta content="{{ item.location }}" itemprop="location">
+    <h3 class="fs-5 fx-row fx-wrap fx-ai-center">
+        <span class="icon c-secondary">{% include icon name=item.type %}</span>
+        <span class="ml-2 mr-4">{{ item.name }}</span>
+        <i class="m-auto"></i>
+        <span class="normal small">{% include period start=item.date_start end=item.date_end %}</span>
+    </h3>
+    {{ item.summary | markdownify }}
+</article>

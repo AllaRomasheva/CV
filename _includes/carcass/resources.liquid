@@ -1,0 +1,13 @@
+{%- if page.alternate -%}
+{%- for item in page.alternate %}
+<link rel="alternate" href="{{ item[1] | absolute_url  }}" hreflang="{{ item[0] }}">
+{%- endfor %}
+{%- endif %}
+<link rel="prefetch" href="https://picsum.photos">
+<link rel="prefetch" href="{{ '/assets/sprite.svg' | absolute_url }}">
+<link rel="preload" href="{{ '/assets/css/main.css' | absolute_url }}" as="style">
+<link rel="preload" href="{{ '/assets/css/app.css' | absolute_url }}" as="style">
+<link rel="preload" href="{{ '/assets/js/app.js' | absolute_url }}" as="script">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/app.css' | absolute_url }}">
+<script async defer src="{{ '/assets/js/app.js' | absolute_url }}"></script>

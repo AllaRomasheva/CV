@@ -1,0 +1,78 @@
+{%- assign lang = page.lang -%}
+{%- assign cv = site.data.cv -%}
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@graph": [
+            {
+                "@type": "Person",
+                "@id": "#alla",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "{{ cv.address }}"
+                },
+                "alumniOf": [
+                    {% for item in cv.work offset: 1 %}
+                    {
+                        "@type":"Organization",
+                        "name":"{{ item.name }}",
+                        "url":"{{ item.url }}",
+                        "employee": {
+                            "@type": "Person",
+                            "hasOccupation": {
+                                "@type": "EmployeeRole",
+                                "roleName": "{{ item.position }}",
+                                "startDate": "{{ item.date_start | date: '%Y-%m' }}",
+                                "endDate": "{{ item.date_end | date: '%Y-%m' }}"
+                            },
+                            "sameAs": "#alla"
+                        }
+                    }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+                ],
+                "awards": [],
+                "image": {
+                    "@type": "ImageObject",
+                    "contentUrl": "{{ cv.image }}"
+                },
+                "jobTitle": [
+                    "{{ cv.position }}"
+                ],
+                "name": "{{ cv.name }}",
+                "sameAs":[{% for item in cv.profiles %}"{{ item.url }}"{% if forloop.last %}{% else %},
+                          {% endif %}{% endfor %}],
+                "url": "{{ cv.website.url }}",
+                "telephone": "{{ cv.phone.label }}",
+                "worksFor": [
+                    {
+                        "@type": "Organization",
+                        "name": "{{ cv.work[0].name }}",
+                        "url": "{{ cv.work[0].url }}"
+                    }
+                ]
+            },
+            {
+                "@type": "WebPage",
+                "headline": "{{ page.title |  join: ' - ' }}",
+                "description": "{{ page.description }}",
+                "url": "{{ page.url | absolute_url }}",
+                "author": {
+                    "@type": "Person",
+                    "name": "{{ cv.name }}"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "{{ cv.image }}"
+                    },
+                    "name": "{{ cv.name }}"
+                },
+                "reviewedBy": {
+                    "@type": "Person",
+                    "name": "{{ cv.name }}",
+                    "sameAs": "#alla"
+                }
+            }
+        ]
+    }
+</script>
