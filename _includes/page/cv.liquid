@@ -58,16 +58,16 @@
         <section>
             <h2 class="fs-4">{% include i18n id="Career History" %}</h2>
             {% for item in cv.work limit: 1 %}
-                {% include block/employer.html itemprop='worksFor' %}
+                {% include block/employer.liquid itemprop='worksFor' %}
             {% endfor %}
             {% for item in cv.work offset: 1 %}
-                {% include block/employer.html itemprop='alumniOf' %}
+                {% include block/employer.liquid itemprop='alumniOf' %}
             {% endfor %}
         </section>
         <section>
             <h2 class="fs-4">{% include i18n id="Education" %}</h2>
             {% for item in cv.education %}
-                {% include block/education.html itemprop='alumniOf' %}
+                {% include block/education.liquid itemprop='alumniOf' %}
             {% endfor %}
         </section>
      </main>
@@ -102,7 +102,7 @@
                 <ul class="cv-list-grid">
                     {% for item in cv.languages %}
                     <li itemprop="knowsLanguage" itemscope itemtype="https://schema.org/Language" class="fx-row fx-ai-center">
-                        {% include block/progress.html value=item.value color=item.color %}
+                        {% include block/progress.liquid value=item.value color=item.color %}
                         <div class="ml-3">
                             <div itemprop="name">{{item.name}}</div>
                             <div class="small c-secondary">{{ item.level }}</div>

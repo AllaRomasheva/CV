@@ -19,9 +19,9 @@
         <span class="normal small">{% include period start=item.date_start end=item.date_end %}</span>
     </h3>
     {{ item.summary | markdownify }}
-    <h4 class="fs-6">Duties:</h4>
+    <h4 class="fs-6">{% include i18n id="Duties" %}:</h4>
     {{ item.duties | markdownify }}
-    <h4 class="fs-6">Featured projects:</h4>
+    <h4 class="fs-6">{% include i18n id="Featured projects" %}:</h4>
     <ul class="cv-project-list">
         {% for project in item.projects %}
         <li class="cv-project-item image-thumb">
