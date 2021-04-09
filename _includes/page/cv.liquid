@@ -1,6 +1,5 @@
 {%- assign lang = page.lang -%}
 {%- assign cv = site.data.cv[page.lang] | default: site.data.cv.en -%}
-
 <div class="page cv" itemid="alla" itemscope itemtype="https://schema.org/Person">
     <div class="cv-progress-bar"></div>
     <header class="cv-header">
@@ -143,7 +142,7 @@
                             </div>
                             <div class="ml-3 fx-truncate">
                                 <div>{{ item.name }}</div>
-                                <div class="small c-secondary text-truncate">{{ item.summary}}</div>
+                                <div class="small c-secondary text-truncate">{{ item.summary }}</div>
                             </div>
                             <div class="ml-auto cv-hover-arrow">
                                 <div class="icon block">{% include icon name="chevron-right" %}</div>
@@ -172,15 +171,16 @@
     <div class="nav-backdrop" data-nav=""></div>
     <div class="nav-content">
         <section>
-            <h2>Hire me</h2>
+            <h2>{% include i18n id="Hire me" %}</h2>
             <article>
-                <p>{% include i18n id="If you have an open project or just need a consultation, you can contact me via" %}
+                <p>
+                    {% include i18n id="If you have an open project or just need a consultation, you can contact me via" %}
                     LinkedIn, Email {% include i18n id="or" %} Twitter.
                 </p>
             </article>
         </section>
         <section>
-            <h2>Feedback</h2>
+            <h2>{% include i18n id="Feedback" %}</h2>
             <form method="post" action="https://forms.un-static.com/forms/20d47566f4e58b3b682c7e9ad6ce943e7b5c6bbe">
                 <fieldset>
                     <label for="name">{% include i18n id="Full Name" %}:</label>

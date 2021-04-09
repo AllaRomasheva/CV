@@ -46,7 +46,7 @@
     --grid-header-rows:auto;
     --grid-footer:"footer-left" "footer-right";
     --grid-tech:repeat(2,1fr);
-    --grid-project:1fr;
+    --grid-project:repeat(2,1fr);
     --grid-interest:2fr;
   }
 }
@@ -54,6 +54,7 @@
 @media screen and (max-width:29rem){
   :root{
     --grid-tech:1fr;
+    --grid-project:1fr;
     --grid-gap: 1rem;
     --grid-padding:1rem;
   }

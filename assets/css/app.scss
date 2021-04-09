@@ -213,6 +213,24 @@
   }
 }
 
+.cv-employer{
+  ul{
+    padding:0;
+    list-style:none;
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-auto-rows: min-content;
+    li{
+      display:flex;
+      flex-direction: row;
+      &:before{
+        content:'•';
+        color:var(--color-secondary);
+        margin-right:0.5rem;
+      }
+    }
+  }
+}
 
 .cv-progress-bar{
   position:fixed;

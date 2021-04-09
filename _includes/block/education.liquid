@@ -9,7 +9,17 @@
         <i class="m-auto"></i>
         <span class="normal small">{% include period start=item.date_start end=item.date_end %}</span>
     </h3>
+
+    {% if item.description %}
+        {{ item.description | markdownify }}
+    {% endif %}
     {% if item.summary %}
-    {{ item.summary | markdownify }}
+        {{ item.summary | markdownify }}
+    {% endif %}
+    {% if item.location %}
+        <p class="fx-row fx-inline fx-ai-center">
+            <span class="icon c-danger mr-2">{% include icon name='map-location-dot' %}</span>
+            {{ item.location }}
+        </p>
     {% endif %}
 </article>

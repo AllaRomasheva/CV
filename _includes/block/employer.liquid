@@ -1,5 +1,5 @@
 {% assign parent = forloop.index %}
-<article itemprop="{{ include.itemprop }}" itemscope itemtype="http://schema.org/Organization">
+<article class="cv-employer" itemprop="{{ include.itemprop }}" itemscope itemtype="http://schema.org/Organization">
     <meta content="{{ item.name }}" itemprop="name">
     <meta content="{{ item.url }}" itemprop="url">
     <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
@@ -27,9 +27,9 @@
     {% endif %}
     {% if item.projects %}
     <h4 class="fs-6">{% include i18n id="Featured projects" %}:</h4>
-    <ul class="cv-project-list">
+    <div class="cv-project-list">
         {% for project in item.projects %}
-        <li class="cv-project-item image-thumb">
+        <div class="cv-project-item image-thumb">
             <div class="image-thumb-backdrop"></div>
             <div class="image-thumb-content">
                 <div class="image-thumb-wrapper">
@@ -39,8 +39,8 @@
                     <div class="image-thumb-summary">{{ project.summary }}</div>
                 </div>
             </div>
-        </li>
+        </div>
         {% endfor %}
-    </ul>
+    </div>
     {% endif %}
 </article>
