@@ -19,7 +19,7 @@ option{
 }
 input,button,select,textarea{
   transition:all 0.3s ease-in-out;
-  display:block;
+  display:inline-flex;
   width:100%;
   border:2px solid #dfdfdf;
   background-color:#fff;
