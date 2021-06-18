@@ -1,4 +1,4 @@
-name: Alla Romasheva
+name: Алла Ромашева
 position: UI/UX Designer
 image: https://romasheva.com/assets/images/alla.romasheva.jpeg
 
@@ -13,53 +13,51 @@ email:
   label: hire@romasheva.cv
 
 phone:
-  url: tel:380939257212
-  label: +380 939 257 212
+  url: tel:380636778005
+  label: +380 636 778 005
 
 summary: |
-  I'm a Freelance UI/UX Designer based in Kyiv, Ukraine 🇺🇦 I focus on creating simple, intuitive web projects.
+  Я - UI/UX дизайнер, з Києва, Україна 🇺🇦 Займаюсь дослідженням, розробкою, створенням та підтримкою дизайн проєктів для
+  різних галузей. А також створенням маркетингової продукції, що супроводжує проєкт.
 
 ## Skills
 
 skills:
   hard:
-    - Design Principles
-    - Visual Communication
-    - Information Architecture
-    - Wireframing & Prototyping
-    - Usability & Research
-    - Analytics & User Testing
-    - Responsive Web Design
-    - SEO & Accessibility
-    - Pitch Deck Design
-    - Photography
-    - Mentoring
+    - Проектування і розробка
+    - Wireframing і прототипування
+    - Адаптивний веб-дизайн
+    - GUI Android і iOs
+    - Методології UX і CX
+    - Аналітика досліджень
+    - Просування та оптімізація
+    - Композиція, колір, типографія
   soft:
-    - Design Thinking
-    - Problem Solving
-    - Critical Thinking
-    - Adaptability & Flexibility
-    - Curious much
-    - Forever Learning & Recycling
-    - Minimalist Mindset
+    - Естетичний художній смак
+    - Креативне мислення
+    - Самостійність
+    - Адаптованість та гнучкість
+    - Презентація продукту
+    - Комунікабельність
+    - Жага знань
 
 ## Languages
 
 languages:
 
-  - name: Ukrainian
+  - name: Українська
     value: 80
-    level: advanced
+    level: Рідна мова
     color: var(--color-success)
 
-  - name: Russian
+  - name: Російська
     value: 90
-    level: native speaker
+    level: Просунутий
     color: var(--color-success)
 
-  - name: English
+  - name: Англійська
     value: 15
-    level: elementary
+    level: елементарний
     color: var(--color-pink)
 
 
@@ -67,29 +65,29 @@ languages:
 
 interests:
 
-  - name: Books
+  - name: Книжки
     icon: book-reader
-    summary: Etiam in rhoncus mauris, sed posuere tortor
+    summary: Професійна література та література з історії
 
-  - name: Health
+  - name: Здоров'я
     icon: heartbeat
-    summary: Etiam in rhoncus mauris, sed posuere tortor
+    summary: Доказова медицина, здоровий образ життя
 
-  - name: Travel
+  - name: Подорожі
     icon: plane
-    summary: Etiam in rhoncus mauris, sed posuere tortor
+    summary: Знаходити натхнення
 
-  - name: Learning
+  - name: Навчання
     icon: brain
-    summary: Etiam in rhoncus mauris, sed posuere tortor
+    summary: Вебінари, курси, лекції
 
-  - name: Gaming
+  - name: Ігри
     icon: gamepad
-    summary: Etiam in rhoncus mauris, sed posuere tortor
+    summary: Компьютерні та настільні
 
-  - name: Animals
+  - name: Тварини
     icon: cat
-    summary: Etiam in rhoncus mauris, sed posuere tortor
+    summary: Котики і коали
 
 ## Experience
 
@@ -197,31 +195,27 @@ work:
     address: Kyiv, Kyiv region, Ukraine
     summary: |
 
-      Nam id mauris leo. Cras nibh ligula, convallis at posuere quis, lacinia a sem.
-      Fusce pellentesque [consectetur](https://google.com) enim eu tempus.
-      Cras congue auctor efficitur.
+      Розробляю дизан логотипів, посадових сторінок, сайтів, брендбуки, логобуки,
+      дизайн для соц мереж, рекламну продукцію, друковану продукцію та інше...
 
     duties: |
-      Pellentesque sem ex, ultricies non posuere ornare, scelerisque non nisi.
-      Aenean sed turpis nec mi congue porta sit amet sed dolor.
 
-      Ut ex risus, suscipit laoreet rhoncus at, luctus et arcu.
+      - Проводжу аналіз конкурентів та ЦА
+      - Створюю концеп-дизайн та розробляю прототип
+      - Розробляю адаптивний дизайн
+      - Співпрацюю із розробниками
 
-      ashdjfha sjdhflajsdh flajksh dfljkah sdlkjfhalskjdh
 
-      - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      - Nunc fermentum elit non nisl vehicula, nec sodales enim vulputate.
-      - Aliquam faucibus mi dictum tristique laoreet.
 
     projects:
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
+      - image: /images/architect.jpg
+        summary: ARCHITECT
+      - image: /images/policlinica.png
+        summary: Poliklinika simya
+      - image: /images/mentalh.jpg
+        summary: MentallyHealthy
+      - image: /images/studio.png
+        summary: Studio of your soul
   ## Employer End
 
   ## Employer Start
@@ -287,23 +281,22 @@ work:
 ## Education
 education:
 
-  - name: College
-    type: college
+  - name: Коледж
+    type: Глухівське медичне училищє-комунальний заклад Сумської обласної ради
     date_start: 2013-09-01 00:00
     date_end: 2017-06-01 00:00
-    location: Ukraine
+    location: м.Глухів Сумська обл.
     url: ''
     description: ''
     summary: |
-      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-      Quisque aliquam velit orci, nec egestas nibh facilisis at. Cras pretium cursus leo, eu posuere arcu
-      semper non. Quisque feugiat rhoncus orci euismod varius.
+      Навчалася в Глухівському медичному коледжі на факультеті "Лікарська справа"
+      за спеціальністю "Фельдшер Швидкої медичної допомоги"
 
-  - name: School
+  - name: Школа
     type: school
     date_start: 2004-09-01 00:00
     date_end: 2013-06-01 00:00
-    location: Ukraine
+    location: м.Путивль Сумська обл.
     url: ''
     description: ''
     summary: |

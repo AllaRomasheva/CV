@@ -13,35 +13,33 @@ email:
   label: hire@romasheva.cv
 
 phone:
-  url: tel:380939257212
-  label: +380 939 257 212
+  url: tel:380636778005
+  label: +380 636 778 005
 
 summary: |
-  I'm a Freelance UI/UX Designer based in Kyiv, Ukraine 🇺🇦 I focus on creating simple, intuitive web projects.
+  I am a UI / UX designer, from Kyiv, Ukraine 🇺🇦 I research, develop, create and support design projects
+  for various industries. As well as the creation of marketing products that accompany the project.
 
 ## Skills
 
 skills:
   hard:
-    - Design Principles
-    - Visual Communication
-    - Information Architecture
-    - Wireframing & Prototyping
-    - Usability & Research
-    - Analytics & User Testing
-    - Responsive Web Design
-    - SEO & Accessibility
-    - Pitch Deck Design
-    - Photography
-    - Mentoring
+    - Design and development
+    - Wireframing and prototyping
+    - Adaptive web design
+    - Android and iOS GUI
+    - UX and CX methodologies
+    - Research analytics
+    - Promotion and optimization
+    - Composition, color, typography
   soft:
-    - Design Thinking
-    - Problem Solving
-    - Critical Thinking
-    - Adaptability & Flexibility
-    - Curious much
-    - Forever Learning & Recycling
-    - Minimalist Mindset
+    - Aesthetic artistic taste
+    - Creative thinking
+    - Independence
+    - Adaptability and flexibility
+    - Product presentation
+    - Communication
+    - Thirst for knowledge
 
 ## Languages
 
@@ -69,27 +67,27 @@ interests:
 
   - name: Books
     icon: book-reader
-    summary: Etiam in rhoncus mauris, sed posuere tortor
+    summary: Professional literature and literature on history
 
   - name: Health
     icon: heartbeat
-    summary: Etiam in rhoncus mauris, sed posuere tortor
+    summary: Evidence-based medicine, a healthy lifestyle
 
   - name: Travel
     icon: plane
-    summary: Etiam in rhoncus mauris, sed posuere tortor
+    summary: Find inspiration
 
   - name: Learning
     icon: brain
-    summary: Etiam in rhoncus mauris, sed posuere tortor
+    summary: Webinars, courses, lectures
 
   - name: Gaming
     icon: gamepad
-    summary: Etiam in rhoncus mauris, sed posuere tortor
+    summary: Computer and desktop
 
   - name: Animals
     icon: cat
-    summary: Etiam in rhoncus mauris, sed posuere tortor
+    summary: Cats and koalas
 
 ## Experience
 
