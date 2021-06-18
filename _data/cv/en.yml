@@ -110,13 +110,13 @@ experience:
         value: 5
       - name: Sketch
         value: 4
-      - name: WebStorm IDE
-        value: 4
       - name: Gravit Designer
         value: 3
       - name: Illustrator
         value: 3
       - name: Photoshop
+        value: 2
+      - name: WebStorm IDE
         value: 2
 
   - name: Tools & Services

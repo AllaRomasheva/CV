@@ -12,14 +12,16 @@ label{
   display:inline-flex;
   margin-bottom:.5rem;
 }
+
 option{
   font-family:var(--font-family-base);
   font-weight:var(--font-weight-normal);
   line-height:var(--line-height-base);
 }
+
 input,button,select,textarea{
   transition:all 0.3s ease-in-out;
-  display:block;
+  display:inline-flex;
   width:100%;
   border:2px solid #dfdfdf;
   background-color:#fff;
@@ -30,25 +32,15 @@ input,button,select,textarea{
   font-weight:var(--font-weight-normal);
   line-height:var(--line-height-base);
   &:focus{
-    border-color:#4E4CBD;
-    box-shadow:0 0 0 0.1875rem rgba(#4E4CBD,20%);
+    border-color:rgb(78, 76, 189);
+    box-shadow:0 0 0 0.125rem rgba(78, 76, 189,0.2);
   }
 }
 
 input,select,textarea{
   &:valid{
-    border-color:#5B9E27;
-    box-shadow:0 0 0 0.1875rem rgba(#5B9E27,20%);
-  }
-}
-
-button[type="submit"]{
-  padding:.5rem 1rem;
-  border:1px solid rgba(0,0,0,0.4);
-  background-color:#4e4cbd;
-  color:#fff;
-  &:hover{
-    background-color:darken(#4e4cbd,10%);
+    border-color:rgb(91, 158, 39);
+    box-shadow:0 0 0 0.1875rem rgba(91, 158, 39,0.2);
   }
 }
 
@@ -73,4 +65,12 @@ textarea{
   min-height:10rem;
 }
 
-
+button[type="submit"]{
+  padding:.5rem 1rem;
+  border:2px solid rgba(0,0,0,0.1);
+  background-color:#4e4cbd;
+  color:#fff;
+  &:hover{
+    background-color:darken(#4e4cbd,10%);
+  }
+}
