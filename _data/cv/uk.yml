@@ -238,13 +238,13 @@ work:
         - Working with a disciplinary developers team to convert business needs into technical specifications.
 
     projects:
-      - image: https://picsum.photos/1280/720
+      - image: /images/uazmi1.jpg
         summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
+      - image: /images/uazmi2.jpg
         summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
+      - image: /images/uazmi3.jpg
         summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
+      - image: /images/uazmi4.jpg
         summary: Etiam in rhoncus mauris, sed posuere tortor
   ## Employer End
 
@@ -261,19 +261,19 @@ work:
       Cras congue auctor efficitur.
 
     duties: |
-      - Designing and deciding on the visual layout of a website.
+      - Designing and deciding on the visual layout of [Логобук](/files/Barbaricum-logobook.pdf).
       - Acting as a channel between the business, customers and developers.
       - Back end development and maintenance of websites.
       - Performance testing the application as part of the development process.
 
     projects:
-      - image: https://picsum.photos/1280/720
+      - image: /images/Barbaricum1.jpg
         summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
+      - image: /images/Barbaricum2.jpg
         summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
+      - image: /images/Barbaricum3.jpg
         summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
+      - image: /images/Barbaricum4.jpg
         summary: Etiam in rhoncus mauris, sed posuere tortor
   ## Employer End
 
