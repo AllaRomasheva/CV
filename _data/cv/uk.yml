@@ -226,16 +226,14 @@ work:
     position: Product Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
-      Nam id mauris leo. Cras nibh ligula, convallis at posuere quis, lacinia a sem.
-      Fusce pellentesque consectetur enim eu tempus.
-      Cras congue auctor efficitur.
+      [Uazmi](https://uazmi.org) -це агрегатор новин України та світу. Містить в собі новини, болги та відеоблоги.
 
     duties: |
-        - Building websites and application using Velocity template engine with Spring MVC as backend.
-        - Developing compatible UI functionality using native javascript & jQuery framework
-        - Successful work with analysts and managers to provide an excellent requirement for further development process.
-        - Optimizing web assets for optimal speed and performance.
-        - Working with a disciplinary developers team to convert business needs into technical specifications.
+        - Провела аналіз конкурентів та ЦА
+        - Розробила архітектурну структуру сайту та зручну навігацію
+        - Створила ескіз та розробила прототип
+        - Розробила чистий мінімалістичний дизайн
+        - Розробила&nbsp;[logo book](/files/UAZMI-logobook.pdf).
 
     projects:
       - image: /images/uazmi1.jpg
@@ -256,15 +254,14 @@ work:
     position: Product Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
-      Nam id mauris leo. Cras nibh ligula, convallis at posuere quis, lacinia a sem.
-      Fusce pellentesque consectetur enim eu tempus.
-      Cras congue auctor efficitur.
+      [Barbaricum](https://barbaricum.kiev.ua) - Навчальна науково-дослідна лабораторія археологічних досліджень.
+      Історичного факультету Національного педагогічного університету ім. М. П. Драгоманова.
 
     duties: |
-      - Designing and deciding on the visual layout of [Логобук](/files/Barbaricum-logobook.pdf).
-      - Acting as a channel between the business, customers and developers.
-      - Back end development and maintenance of websites.
-      - Performance testing the application as part of the development process.
+      - Розробила архітектурну структуру сайту та зручну навігацію
+      - Створила ескіз та розробила прототип
+      - Розробила чистий мінімалістичний дизайн
+      - Розробила&nbsp;[logo book](/files/Barbaricum-logobook.pdf).
 
     projects:
       - image: /images/Barbaricum1.jpg
