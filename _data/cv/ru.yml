@@ -1,0 +1,301 @@
+name: Алла Ромашева
+position: UI/UX Designer
+image: https://romasheva.com/assets/images/alla.romasheva.jpeg
+
+address: Kyiv, Kyiv region, Ukraine
+
+website:
+  url: https://romasheva.design
+  label: romasheva.design
+
+email:
+  url: mailto:hire@romasheva.cv
+  label: hire@romasheva.cv
+
+phone:
+  url: tel:380636778005
+  label: +380 636 778 005
+
+summary: |
+  Я - UI / UX дизайнер из Киева, Украина 🇺🇦 Занимаюсь исследованием, разработкой, созданием и поддержкой дизайн проектов для
+  различных отраслей. А также созданием маркетинговой продукции которая сопровождает проект.
+
+## Skills
+
+skills:
+  hard:
+    - Проектирование и разработка
+    - Верифрейминг и прототипирования
+    - Адаптивний веб-дизайн
+    - GUI Android і iOs
+    - Методологии UX і CX
+    - Аналитика исследований
+    - Продвижение и оптимизация
+    - Композиция, цвет, типография
+  soft:
+    - Эстетический художественный вкуск
+    - Креативное мышление
+    - Самостоятельность
+    - Адаптированность и гибкость
+    - Умение презентовать продукт
+    - Комуникабельность
+    - Жажда знаний
+
+## Languages
+
+languages:
+
+  - name: Украинский
+    value: 80
+    level: Родной язык
+    color: var(--color-success)
+
+  - name: Русский
+    value: 90
+    level: Продвинутый
+    color: var(--color-success)
+
+  - name: Англиский
+    value: 15
+    level: Елементарный
+    color: var(--color-pink)
+
+
+## Interests & Hobby
+
+interests:
+
+  - name: Книжки
+    icon: book-reader
+    summary: Профессиональная литература и литература по истории
+
+  - name: Здоровье
+    icon: heartbeat
+    summary: Доказательная медицина, здоровый образ жизни
+
+  - name: Путишествия
+    icon: plane
+    summary: Находить вдохновение
+
+  - name: Учеба
+    icon: brain
+    summary: Вебинары, курсы, лекции
+
+  - name: Игри
+    icon: gamepad
+    summary: Компьютерные та настольные
+
+  - name: Животные
+    icon: cat
+    summary: Коты и коалы
+
+## Experience
+
+experience:
+
+  - name: Frontend
+    list:
+      - name: CSS & HTML
+        value: 3
+      - name: Microdata
+        value: 2
+      - name: Web Standards
+        value: 2
+      - name: JavaScript
+        value: 0
+
+  - name: Software
+    list:
+      - name: Figma
+        value: 5
+      - name: Sketch
+        value: 4
+      - name: Gravit Designer
+        value: 3
+      - name: Illustrator
+        value: 3
+      - name: Photoshop
+        value: 2
+      - name: WebStorm IDE
+        value: 2
+
+  - name: Tools & Services
+    list:
+      - name: Git (GitHub)
+        value: 4
+      - name: Jira / Confluence
+        value: 3
+
+  - name: Operating systems
+    list:
+      - name: macOS
+        value: 4
+      - name: Windows
+        value: 3
+      - name: Linux
+        value: 1
+
+
+## Profiles
+
+profiles:
+
+  - name: Instagram
+    icon: instagram-square
+    color: c-instagram
+    summary: /romasheva.design
+    url: https://www.instagram.com/romasheva.design/
+
+  - name: Behance
+    icon: behance-square
+    color: c-behance
+    summary: /romasheva
+    url: https://www.behance.net/romasheva
+
+  - name: Dribbble
+    icon: dribbble-square
+    color: c-dribbble
+    summary: /romasheva
+    url: https://dribbble.com/romasheva
+
+  - name: Facebook
+    icon: facebook-square
+    color: c-facebook
+    summary: /romasheva.design
+    url: https://www.facebook.com/romasheva.design
+
+  - name: Twitter
+    color: c-twitter
+    icon: twitter-square
+    summary: /AllaRomasheva
+    url: https://twitter.com/AllaRomasheva
+
+  - name: LinkedIn
+    icon: linkedin-square
+    color: c-linkedin
+    summary: /in/romasheva
+    url: https://www.linkedin.com/in/romasheva/
+
+  - name: GitHub
+    icon: github-square
+    color: c-github
+    summary: /allaromasheva
+    url: https://github.com/allaromasheva
+
+## Career
+
+work:
+
+  ## Employer Start
+  - name: Freelancer
+    url: htts://barbaricum.kiev.ua/
+    date_start: 2016-03-18 00:00
+    date_end: null
+    position: UI/UX Designer
+    address: Kyiv, Kyiv region, Ukraine
+    summary: |
+      Разрабатываю дизан логотипов, должностных страниц, сайтов, брендбук, логобукы,
+      дизайн для социальных сетей, рекламную продукцию, печатную продукцию и другое ...
+
+    duties: |
+
+      - Провожу анализ конкурентов и ЦА
+      - Создаю концеп-дизайн и разрабатываю прототип
+      - Разрабатываю адаптивный дизайн
+      - Сотрудничаю с разработчиками
+
+
+
+    projects:
+      - image: /images/architect.jpg
+        summary: ARCHITECT
+      - image: /images/policlinica.png
+        summary: Poliklinika simya
+      - image: /images/mentalh.jpg
+        summary: MentallyHealthy
+      - image: /images/studio.png
+        summary: Studio of your soul
+  ## Employer End
+
+  ## Employer Start
+  - name: UAZMI
+    url: htts://uazmi.org/
+    date_start: 2016-03-18 00:00
+    date_end: 2017-03-18 00:00
+    position: Product Designer
+    address: Kyiv, Kyiv region, Ukraine
+    summary: |
+      [Uazmi](https://uazmi.org) -это агрегатор новостей на котором можно ознакомиться с актуальными
+      событиями Украины и мира на тему политики, шоу-бизнеса, культуры, спорта, науки и других сфер.
+      Также здесь розмещены блоги и видеоблоги.
+
+    duties: |
+        - Провела анализ конкурентов и ЦА
+        - Разработала архитектурную структуру сайта и удобную навигацию
+        - Создала эскиз и разработала прототип
+        - Разработала чистый минималистичный дизайн
+        - Разработала&nbsp;[logo book](/files/UAZMI-logobook.pdf).
+
+    projects:
+      - image: /images/uazmi1.jpg
+        summary: Главная страница
+      - image: /images/uazmi2.jpg
+        summary: Страница новости
+      - image: /images/uazmi3.jpg
+        summary: Навигация
+      - image: /images/uazmi4.jpg
+        summary: Лента новостей
+  ## Employer End
+
+  ## Employer Start
+  - name: Barbaricum
+    url: htts://barbaricum.kiev.ua/
+    date_start: 2016-03-18 00:00
+    date_end: 2017-03-18 00:00
+    position: Product Designer
+    address: Kyiv, Kyiv region, Ukraine
+    summary: |
+      [Barbaricum](https://barbaricum.kiev.ua) -Учебная научно-исследовательская лаборатория археологических исследований.
+      Исторического факультета Национального педагогического университета им. М. П. Драгоманова.
+
+    duties: |
+      - Разработала архитектурную структуру сайта и удобную навигацию
+      - Создала эскиз и разработала прототип
+      - Разработала чистый минималистичный дизайн
+      - Разработала&nbsp;[logo book](/files/Barbaricum-logobook.pdf).
+
+    projects:
+      - image: /images/Barbaricum1.jpg
+        summary: Главная станица
+      - image: /images/Barbaricum2.jpg
+        summary: Новости
+      - image: /images/Barbaricum3.jpg
+        summary: Археология
+      - image: /images/Barbaricum4.jpg
+        summary: Журнал
+  ## Employer End
+
+
+## Education
+education:
+
+  - name: Колледж
+    type: Глуховское медицинское училище-коммунальное заведение Сумскогй области
+    date_start: 2013-09-01 00:00
+    date_end: 2017-06-01 00:00
+    location: г.Глухов Сумская обл.
+    url: ''
+    description: ''
+    summary: |
+      Училась в Глуховском медицинском колледже на факультете "Врачебное дело"
+      по специальности "Фельдшер скорой медицинской помощи"
+
+  - name: Школа
+    type: school
+    date_start: 2004-09-01 00:00
+    date_end: 2013-06-01 00:00
+    location: г.Путивль Сумская обл.
+    url: ''
+    description: ''
+    summary: |
+      Училась в Путивльской общеобразовательной школе I-III ступеней №1

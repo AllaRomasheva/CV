@@ -57,7 +57,7 @@ languages:
 
   - name: Англійська
     value: 15
-    level: елементарний
+    level: Елементарний
     color: var(--color-pink)
 
 
@@ -194,7 +194,6 @@ work:
     position: UI/UX Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
-
       Розробляю дизан логотипів, посадових сторінок, сайтів, брендбуки, логобуки,
       дизайн для соц мереж, рекламну продукцію, друковану продукцію та інше...
 
@@ -226,7 +225,9 @@ work:
     position: Product Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
-      [Uazmi](https://uazmi.org) -це агрегатор новин України та світу. Містить в собі новини, болги та відеоблоги.
+        [Uazmi](https://uazmi.org)-це агрегатор новин на якому можна ознайомитися з актуальними
+        подіями України та світу, на тему політики, шоу-бізнесу, культури, спорту, науки та інших сфер.
+        Також тут розміщєні блоги та відеоблоги.
 
     duties: |
         - Провела аналіз конкурентів та ЦА
@@ -237,13 +238,13 @@ work:
 
     projects:
       - image: /images/uazmi1.jpg
-        summary: Etiam in rhoncus mauris, sed posuere tortor
+        summary: Головна сторінка
       - image: /images/uazmi2.jpg
-        summary: Etiam in rhoncus mauris, sed posuere tortor
+        summary: Сторінка з новиною
       - image: /images/uazmi3.jpg
-        summary: Etiam in rhoncus mauris, sed posuere tortor
+        summary: Навігація
       - image: /images/uazmi4.jpg
-        summary: Etiam in rhoncus mauris, sed posuere tortor
+        summary: Стрічка новин
   ## Employer End
 
   ## Employer Start
@@ -265,13 +266,13 @@ work:
 
     projects:
       - image: /images/Barbaricum1.jpg
-        summary: Etiam in rhoncus mauris, sed posuere tortor
+        summary: Головна сторінка
       - image: /images/Barbaricum2.jpg
-        summary: Etiam in rhoncus mauris, sed posuere tortor
+        summary: Новини
       - image: /images/Barbaricum3.jpg
-        summary: Etiam in rhoncus mauris, sed posuere tortor
+        summary: Археологія
       - image: /images/Barbaricum4.jpg
-        summary: Etiam in rhoncus mauris, sed posuere tortor
+        summary: Журнал
   ## Employer End
 
 
@@ -297,6 +298,4 @@ education:
     url: ''
     description: ''
     summary: |
-      Proin eget blandit erat. Donec egestas ut lacus nec tempor.
-      Donec lacus est, pulvinar eget nisl sed, imperdiet tempus quam. Quisque quis mauris id urna semper vestibulum.
-      Donec non nisl eros. Sed dignissim ipsum metus, sed semper elit bibendum eu.
+      Навачлася в Путивльській Загальноосвітній школі I-III ступенів №1

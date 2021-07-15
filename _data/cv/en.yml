@@ -194,30 +194,24 @@ work:
     position: UI/UX Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
-      Nam id mauris leo. Cras nibh ligula, convallis at posuere quis, lacinia a sem.
-      Fusce pellentesque [consectetur](https://google.com) enim eu tempus.
-      Cras congue auctor efficitur.
+      I develop a design of logos, official pages, sites, brand books, logobooks,
+      design for social networks, advertising products, printed products and more ...
     duties: |
-      Pellentesque sem ex, ultricies non posuere ornare, scelerisque non nisi.
-      Aenean sed turpis nec mi congue porta sit amet sed dolor.
 
-      Ut ex risus, suscipit laoreet rhoncus at, luctus et arcu.
-
-      ashdjfha sjdhflajsdh flajksh dfljkah sdlkjfhalskjdh
-
-      - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      - Nunc fermentum elit non nisl vehicula, nec sodales enim vulputate.
-      - Aliquam faucibus mi dictum tristique laoreet.
+      - I analyze competitors and CA.
+      - I create a concept design and develop a prototype
+      - I develop adaptive design
+      - I cooperate with developers
 
     projects:
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
+      - image: /images/architect.jpg
+        summary: ARCHITECT
+      - image: /images/policlinica.png
+        summary: Poliklinika simya
+      - image: /images/mentalh.jpg
+        summary: MentallyHealthy
+      - image: /images/studio.png
+        summary: Studio of your soul
   ## Employer End
 
   ## Employer Start
@@ -228,26 +222,26 @@ work:
     position: Product Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
-      Nam id mauris leo. Cras nibh ligula, convallis at posuere quis, lacinia a sem.
-      Fusce pellentesque consectetur enim eu tempus.
-      Cras congue auctor efficitur.
+      [Uazmi](https://uazmi.org) -is an aggregator of news on which it is possible to get acquainted with actual
+      events in Ukraine and the world, on politics, show business, culture, sports, science and other fields.
+      Blogs and video blogs are also posted here.
 
     duties: |
-        - Building websites and application using Velocity template engine with Spring MVC as backend.
-        - Developing compatible UI functionality using native javascript & jQuery framework
-        - Successful work with analysts and managers to provide an excellent requirement for further development process.
-        - Optimizing web assets for optimal speed and performance.
-        - Working with a disciplinary developers team to convert business needs into technical specifications.
+        - Conducted analysis of competitors and CA.
+        - Developed the architectural structure of the site and easy navigation
+        - Created a sketch and developed a prototype
+        - Developed a clean minimalist design
+        - Developed&nbsp;[logo book](/files/UAZMI-logobook.pdf).
 
     projects:
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
+      - image: /images/uazmi1.jpg
+        summary: Home page
+      - image: /images/uazmi2.jpg
+        summary: News page
+      - image: /images/uazmi3.jpg
+        summary: Navigation
+      - image: /images/uazmi4.jpg
+        summary: News feed
   ## Employer End
 
   ## Employer Start
@@ -258,25 +252,24 @@ work:
     position: Product Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
-      Nam id mauris leo. Cras nibh ligula, convallis at posuere quis, lacinia a sem.
-      Fusce pellentesque consectetur enim eu tempus.
-      Cras congue auctor efficitur.
+      [Barbaricum](https://barbaricum.kiev.ua) - Educational research laboratory of archaeological research.
+      Faculty of History, National Pedagogical University. M.P. Dragomanova.
 
     duties: |
-      - Designing and deciding on the visual layout of a website.
-      - Acting as a channel between the business, customers and developers.
-      - Back end development and maintenance of websites.
-      - Performance testing the application as part of the development process.
+      - Developed the architectural structure of the site and easy navigation
+      - Created a sketch and developed a prototype
+      - Developed a clean minimalist design
+      - Developed&nbsp;[logo book](/files/Barbaricum-logobook.pdf).
 
     projects:
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
-      - image: https://picsum.photos/1280/720
-        summary: Etiam in rhoncus mauris, sed posuere tortor
+      - image: /images/Barbaricum1.jpg
+        summary: Home page
+      - image: /images/Barbaricum2.jpg
+        summary: News
+      - image: /images/Barbaricum3.jpg
+        summary: Archeology
+      - image: /images/Barbaricum4.jpg
+        summary: Magazine
   ## Employer End
 
 
@@ -284,16 +277,16 @@ work:
 education:
 
   - name: College
-    type: college
+    type: Glukhiv Medical School-Municipal Institution of Sumy Regional Council
     date_start: 2013-09-01 00:00
     date_end: 2017-06-01 00:00
-    location: Ukraine
+    location: Glukhiv, Sumy region
     url: ''
     description: ''
     summary: |
-      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-      Quisque aliquam velit orci, nec egestas nibh facilisis at. Cras pretium cursus leo, eu posuere arcu
-      semper non. Quisque feugiat rhoncus orci euismod varius.
+      Studied at Glukhiv Medical College at the Faculty of Medicine
+      in the specialty "Ambulance paramedic"
+
 
   - name: School
     type: school
@@ -303,6 +296,4 @@ education:
     url: ''
     description: ''
     summary: |
-      Proin eget blandit erat. Donec egestas ut lacus nec tempor.
-      Donec lacus est, pulvinar eget nisl sed, imperdiet tempus quam. Quisque quis mauris id urna semper vestibulum.
-      Donec non nisl eros. Sed dignissim ipsum metus, sed semper elit bibendum eu.
+      She started at Putivl secondary school of 1-3 grades №1
