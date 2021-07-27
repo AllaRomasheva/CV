@@ -13,15 +13,13 @@
 @import 'src/animation';
 @import 'src/grid';
 
+
 .page {
   position:relative;
   margin:0 auto;
   max-width:64rem;
   width:100%;
 }
-
-
-
 
 .cv {
   display:grid;

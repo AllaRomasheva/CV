@@ -75,7 +75,5 @@ body{
   min-height:100vh;
   display:block;
   position:relative;
-  @media screen and (max-width:47rem){
-    --page-background: #ffffff;
-  }
+
 }
