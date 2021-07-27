@@ -13,11 +13,11 @@
             <meta content="{{ item.date_end | date: '%Y-%m' }}" itemprop="endDate">
         </div>
     </div>
-    <h3 class="fs-5 fx-row fx-wrap">
+    <div class="fs-5 bold fx-row fx-wrap">
         <span class="mr-4 -tg">{{ item.name }} — {{ item.position }}</span>
         <i class="m-auto"></i>
         <span class="normal small -tg">{% include period start=item.date_start end=item.date_end %}</span>
-    </h3>
+    </div>
     {% if item.summary %}
     {{ item.summary | markdownify }}
     {% endif %}
