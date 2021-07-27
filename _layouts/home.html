@@ -19,9 +19,9 @@
         head.appendChild(node);
         document.documentElement.lang = language;
         let canonical = document.querySelector('link[rel="canonical"]');
-        // if (canonical) {
-        //     location.assign(canonical.href);
-        // }
+        if (canonical) {
+            location.assign(canonical.href);
+        }
     </script>
 </head>
 <body>
