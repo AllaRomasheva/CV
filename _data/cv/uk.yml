@@ -1,11 +1,11 @@
 name: Алла Ромашева
 position: UI/UX Designer
-image: https://romasheva.com/assets/images/alla.romasheva.jpeg
+image: /assets/images/profile.jpeg
 
 address: Kyiv, Kyiv region, Ukraine
 
 website:
-  url: https://romasheva.design
+  url: https://romasheva.design/
   label: romasheva.design
 
 email:
@@ -27,7 +27,7 @@ skills:
     - Проектування і розробка
     - Wireframing і прототипування
     - Адаптивний веб-дизайн
-    - GUI Android і iOs
+    - GUI Android і iOS
     - Методології UX і CX
     - Аналітика досліджень
     - Просування та оптімізація
@@ -46,12 +46,12 @@ skills:
 languages:
 
   - name: Українська
-    value: 80
+    value: 90
     level: Рідна мова
     color: var(--color-success)
 
   - name: Російська
-    value: 90
+    value: 85
     level: Просунутий
     color: var(--color-success)
 
@@ -188,8 +188,8 @@ work:
 
   ## Employer Start
   - name: Freelancer
-    url: htts://barbaricum.kiev.ua/
-    date_start: 2016-03-18 00:00
+    url: https://freelance.ua/
+    date_start: 2020-03-18 00:00
     date_end: null
     position: UI/UX Designer
     address: Kyiv, Kyiv region, Ukraine
@@ -203,8 +203,6 @@ work:
       - Створюю концеп-дизайн та розробляю прототип
       - Розробляю адаптивний дизайн
       - Співпрацюю із розробниками
-
-
 
     projects:
       - image: /images/architect.jpg
@@ -220,12 +218,12 @@ work:
   ## Employer Start
   - name: UAZMI
     url: htts://uazmi.org/
-    date_start: 2016-03-18 00:00
-    date_end: 2017-03-18 00:00
+    date_start: 2021-07-30 00:00
+    date_end: 2021-08-24 00:00
     position: Product Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
-        [Uazmi](https://uazmi.org)-це агрегатор новин на якому можна ознайомитися з актуальними
+        [Uazmi](https://uazmi.org) - це агрегатор новин на якому можна ознайомитися з актуальними
         подіями України та світу, на тему політики, шоу-бізнесу, культури, спорту, науки та інших сфер.
         Також тут розміщєні блоги та відеоблоги.
 
@@ -250,8 +248,8 @@ work:
   ## Employer Start
   - name: Barbaricum
     url: htts://barbaricum.kiev.ua/
-    date_start: 2016-03-18 00:00
-    date_end: 2017-03-18 00:00
+    date_start: 2020-05-25 00:00
+    date_end: 2021-07-18 00:00
     position: Product Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
@@ -262,7 +260,7 @@ work:
       - Розробила архітектурну структуру сайту та зручну навігацію
       - Створила ескіз та розробила прототип
       - Розробила чистий мінімалістичний дизайн
-      - Розробила&nbsp;[logo book](/files/Barbaricum-logobook.pdf).
+      - Розробила [logo book](/files/Barbaricum-logobook.pdf).
 
     projects:
       - image: /images/Barbaricum1.jpg
@@ -280,12 +278,12 @@ work:
 education:
 
   - name: Коледж
-    type: Глухівське медичне училищє-комунальний заклад Сумської обласної ради
+    type: college
     date_start: 2013-09-01 00:00
     date_end: 2017-06-01 00:00
-    location: м.Глухів Сумська обл.
-    url: ''
-    description: ''
+    location: м.Глухів, Сумська обл.
+    url: https://www.glmed.org.ua/
+    description: Глухівський фаховий медичний коледж
     summary: |
       Навчалася в Глухівському медичному коледжі на факультеті "Лікарська справа"
       за спеціальністю "Фельдшер Швидкої медичної допомоги"
@@ -294,7 +292,7 @@ education:
     type: school
     date_start: 2004-09-01 00:00
     date_end: 2013-06-01 00:00
-    location: м.Путивль Сумська обл.
+    location: м.Путивль, Сумська обл.
     url: ''
     description: ''
     summary: |

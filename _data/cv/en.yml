@@ -1,6 +1,6 @@
 name: Alla Romasheva
 position: UI/UX Designer
-image: https://romasheva.com/assets/images/alla.romasheva.jpeg
+image: /assets/images/profile.jpeg
 
 address: Kyiv, Kyiv region, Ukraine
 
@@ -46,12 +46,12 @@ skills:
 languages:
 
   - name: Ukrainian
-    value: 80
+    value: 90
     level: advanced
     color: var(--color-success)
 
   - name: Russian
-    value: 90
+    value: 85
     level: native speaker
     color: var(--color-success)
 
@@ -188,8 +188,8 @@ work:
 
   ## Employer Start
   - name: Freelancer
-    url: htts://barbaricum.kiev.ua/
-    date_start: 2016-03-18 00:00
+    url: https://freelance.ua/
+    date_start: 2020-03-18 00:00
     date_end: null
     position: UI/UX Designer
     address: Kyiv, Kyiv region, Ukraine
@@ -217,8 +217,8 @@ work:
   ## Employer Start
   - name: UAZMI
     url: htts://uazmi.org/
-    date_start: 2016-03-18 00:00
-    date_end: 2017-03-18 00:00
+    date_start: 2020-05-25 00:00
+    date_end: 2021-07-18 00:00
     position: Product Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
@@ -247,8 +247,8 @@ work:
   ## Employer Start
   - name: Barbaricum
     url: htts://barbaricum.kiev.ua/
-    date_start: 2016-03-18 00:00
-    date_end: 2017-03-18 00:00
+    date_start: 2020-05-25 00:00
+    date_end: 2021-07-18 00:00
     position: Product Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
@@ -259,7 +259,7 @@ work:
       - Developed the architectural structure of the site and easy navigation
       - Created a sketch and developed a prototype
       - Developed a clean minimalist design
-      - Developed&nbsp;[logo book](/files/Barbaricum-logobook.pdf).
+      - Developed [logo book](/files/Barbaricum-logobook.pdf).
 
     projects:
       - image: /images/Barbaricum1.jpg

@@ -1,6 +1,6 @@
 name: Алла Ромашева
 position: UI/UX Designer
-image: https://romasheva.com/assets/images/alla.romasheva.jpeg
+image: /assets/images/profile.jpeg
 
 address: Kyiv, Kyiv region, Ukraine
 
@@ -27,7 +27,7 @@ skills:
     - Проектирование и разработка
     - Верифрейминг и прототипирования
     - Адаптивний веб-дизайн
-    - GUI Android і iOs
+    - GUI Android и iOS
     - Методологии UX і CX
     - Аналитика исследований
     - Продвижение и оптимизация
@@ -46,12 +46,12 @@ skills:
 languages:
 
   - name: Украинский
-    value: 80
+    value: 90
     level: Родной язык
     color: var(--color-success)
 
   - name: Русский
-    value: 90
+    value: 85
     level: Продвинутый
     color: var(--color-success)
 
@@ -188,8 +188,8 @@ work:
 
   ## Employer Start
   - name: Freelancer
-    url: htts://barbaricum.kiev.ua/
-    date_start: 2016-03-18 00:00
+    url: https://freelance.ua/
+    date_start: 2020-03-18 00:00
     date_end: null
     position: UI/UX Designer
     address: Kyiv, Kyiv region, Ukraine
@@ -198,13 +198,10 @@ work:
       дизайн для социальных сетей, рекламную продукцию, печатную продукцию и другое ...
 
     duties: |
-
       - Провожу анализ конкурентов и ЦА
       - Создаю концеп-дизайн и разрабатываю прототип
       - Разрабатываю адаптивный дизайн
       - Сотрудничаю с разработчиками
-
-
 
     projects:
       - image: /images/architect.jpg
@@ -220,8 +217,8 @@ work:
   ## Employer Start
   - name: UAZMI
     url: htts://uazmi.org/
-    date_start: 2016-03-18 00:00
-    date_end: 2017-03-18 00:00
+    date_start: 2021-07-30 00:00
+    date_end: 2021-08-24 00:00
     position: Product Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
@@ -250,8 +247,8 @@ work:
   ## Employer Start
   - name: Barbaricum
     url: htts://barbaricum.kiev.ua/
-    date_start: 2016-03-18 00:00
-    date_end: 2017-03-18 00:00
+    date_start: 2020-05-25 00:00
+    date_end: 2021-07-18 00:00
     position: Product Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
@@ -262,7 +259,7 @@ work:
       - Разработала архитектурную структуру сайта и удобную навигацию
       - Создала эскиз и разработала прототип
       - Разработала чистый минималистичный дизайн
-      - Разработала&nbsp;[logo book](/files/Barbaricum-logobook.pdf).
+      - Разработала [logo book](/files/Barbaricum-logobook.pdf).
 
     projects:
       - image: /images/Barbaricum1.jpg
@@ -280,12 +277,12 @@ work:
 education:
 
   - name: Колледж
-    type: Глуховское медицинское училище-коммунальное заведение Сумскогй области
+    type: college
     date_start: 2013-09-01 00:00
     date_end: 2017-06-01 00:00
-    location: г.Глухов Сумская обл.
-    url: ''
-    description: ''
+    location: г.Глухов, Сумская обл.
+    url: https://www.glmed.org.ua/
+    description: Глуховский медицинский колледж
     summary: |
       Училась в Глуховском медицинском колледже на факультете "Врачебное дело"
       по специальности "Фельдшер скорой медицинской помощи"
@@ -294,7 +291,7 @@ education:
     type: school
     date_start: 2004-09-01 00:00
     date_end: 2013-06-01 00:00
-    location: г.Путивль Сумская обл.
+    location: г.Путивль, Сумская обл.
     url: ''
     description: ''
     summary: |
