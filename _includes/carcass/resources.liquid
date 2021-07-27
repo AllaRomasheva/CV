@@ -3,7 +3,6 @@
 <link rel="alternate" href="{{ item[1] | absolute_url  }}" hreflang="{{ item[0] }}">
 {%- endfor %}
 {%- endif %}
-<link rel="prefetch" href="{{ '/assets/sprite.svg' | absolute_url }}">
 <link rel="preload" href="{{ '/assets/css/main.css' | absolute_url | append: '?' | append: site.github.build_revision  }}" as="style">
 <link rel="preload" href="{{ '/assets/css/app.css' | absolute_url | append: '?' | append: site.github.build_revision  }}" as="style">
 <link rel="preload" href="{{ '/assets/js/app.js' | absolute_url | append: '?' | append: site.github.build_revision }}" as="script">

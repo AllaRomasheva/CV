@@ -16,6 +16,10 @@ exclude:
 timezone: Europe/Kiev
 markdown: kramdown
 title: ''
+
+url:  https://romasheva.cv
+baseurl: ''
+
 email: alla@romasheva.com
 
 analytics: G-C6HYPQHN9F

@@ -1,5 +1,5 @@
 function debounce(fn) {
-    var frame, params;
+    let frame, params;
     return function () {
         params = arguments;
         if (frame) {
@@ -35,13 +35,13 @@ function bind(parent,event,selector,callback){
 
 
 (function () {
-    var callback;
-    var html      =  document.documentElement;
-    var container = document.scrollingElement;
-    var scroll = 0;
+    let callback;
+    let html      =  document.documentElement;
+    let container = document.scrollingElement;
+    let scroll = 0;
     function scroller() {
-        var scrollTop = container.scrollTop;
-        var progress  = parseFloat(window.scrollY / ((html.scrollHeight - html.clientHeight) / 100) ).toFixed(2);
+        let scrollTop = container.scrollTop;
+        let progress  = parseFloat(window.scrollY / ((html.scrollHeight - html.clientHeight) / 100) ).toFixed(2);
         html.style.setProperty('--progress',String(progress));
         html.classList.toggle('scroll', scrollTop > 0);
         html.classList.toggle('scroll-bottom', scrollTop > 0 && (scroll < scrollTop));
@@ -54,7 +54,6 @@ function bind(parent,event,selector,callback){
     scroller();
 })();
 
-
 (function(){
 
     function togglePreview(ev){
@@ -62,6 +61,7 @@ function bind(parent,event,selector,callback){
         let html = document.documentElement;
         let scrollbar = window.innerWidth - document.documentElement.clientWidth;
         let state = html.classList.toggle('show-image',this.classList.toggle('active'));
+        let target = ev.target;
         html.classList.toggle('hide-image',state === false);
         html.style.setProperty('--scrollbar', String(scrollbar) );
     }
