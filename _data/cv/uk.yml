@@ -263,13 +263,13 @@ work:
       - Розробила &nbsp; [logo book](/files/Barbaricum-logobook.pdf).
 
     projects:
-      - image: /images/Barbaricum1.jpg
+      - image: /images/barbaricum1.jpg
         summary: Головна сторінка
-      - image: /images/Barbaricum2.jpg
+      - image: /images/barbaricum2.jpg
         summary: Новини
-      - image: /images/Barbaricum3.jpg
+      - image: /images/barbaricum3.jpg
         summary: Археологія
-      - image: /images/Barbaricum4.jpg
+      - image: /images/barbaricum4.jpg
         summary: Журнал
   ## Employer End
 

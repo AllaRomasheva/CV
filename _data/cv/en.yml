@@ -262,13 +262,13 @@ work:
       - Developed &nbsp; [logo book](/files/Barbaricum-logobook.pdf).
 
     projects:
-      - image: /images/Barbaricum1.jpg
+      - image: /images/barbaricum1.jpg
         summary: Home page
-      - image: /images/Barbaricum2.jpg
+      - image: /images/barbaricum2.jpg
         summary: News
-      - image: /images/Barbaricum3.jpg
+      - image: /images/barbaricum3.jpg
         summary: Archeology
-      - image: /images/Barbaricum4.jpg
+      - image: /images/barbaricum4.jpg
         summary: Magazine
   ## Employer End
 
