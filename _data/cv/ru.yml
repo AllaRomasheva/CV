@@ -206,11 +206,11 @@ work:
     projects:
       - image: /images/architect.jpg
         summary: ARCHITECT
-      - image: /images/policlinica.png
+      - image: /images/policlinica.jpg
         summary: Poliklinika simya
       - image: /images/mentalh.jpg
         summary: MentallyHealthy
-      - image: /images/studio.png
+      - image: /images/studio.jpg
         summary: Studio of your soul
   ## Employer End
 
