@@ -33,7 +33,7 @@
             <div class="image-thumb-content">
                 <div class="image-thumb-wrapper">
                     <a href="{{ project.image | absolute_url }}" target="_blank" class="image-thumb-preview">
-                        <img loading="lazy" src="{{ project.image | absolute_url }}" alt="{{ project.summary }}">
+                        <img loading="lazy" src="{% include webserv image=project.image width=640 height=480  %}" alt="{{ project.summary }}">
                     </a>
                     <div class="image-thumb-summary">{{ project.summary }}</div>
                 </div>
