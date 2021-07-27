@@ -3,12 +3,12 @@
     <meta content="{{ item.url }}" itemprop="url">
     <meta content="{{ item.description }}" itemprop="description">
     <meta content="{{ item.location }}" itemprop="location">
-    <div class="fs-5 bold fx-row fx-wrap fx-ai-center">
+    <h3 class="fs-5 fx-row fx-wrap fx-ai-center">
         <span class="icon c-secondary">{% include icon name=item.type %}</span>
-        <span class="ml-2 mr-4 -tg">{{ item.name }}</span>
+        <span class="ml-2 mr-4">{{ item.name }}</span>
         <i class="m-auto"></i>
-        <span class="normal small -tg">{% include period start=item.date_start end=item.date_end %}</span>
-    </div>
+        <span class="normal small">{% include period start=item.date_start end=item.date_end %}</span>
+    </h3>
     {% if item.description %}
         {{ item.description | markdownify }}
     {% endif %}
