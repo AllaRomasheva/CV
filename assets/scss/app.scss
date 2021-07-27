@@ -87,6 +87,9 @@
     grid-template-columns: min-content auto min-content;
     display:grid;
     grid-template-areas:var(--grid-footer);
+    @media screen and (max-width:29rem){
+      margin-bottom: 6rem;
+    }
     &-left{
       grid-area:footer-left;
       @extend .fx-row;
@@ -204,7 +207,7 @@
     opacity:1;
   }
 }
-//and (hover: hover) and (pointer: fine)
+
 @media screen  {
   h1,h2,h3,h4,h5,h6{
     &,span{
