@@ -1,6 +1,6 @@
 {%- assign url  = include.image | absolute_url -%}
 {%- if jekyll.environment == "production" -%}
-https://images.weserv.nl/?fit=cover&w={{include.width | default: auto}}&h={{include.width | default: auto}}&url={{ url  }}
+https://images.weserv.nl/?fit=cover&w={{include.width | default: auto}}&h={{include.height | default: auto}}&url={{ url  }}
 {%- else - %}
 {{- url -}}
 {%- endif -%}
