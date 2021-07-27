@@ -15,13 +15,13 @@ exclude:
 
 timezone: Europe/Kiev
 markdown: kramdown
-repository: kosatyi/romasheva.cv
+repository: allaromasheva/romasheva.cv
 title: ''
 email: alla@romasheva.com
-description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+
+analytics: G-C6HYPQHN9F
+
+description: ''
 baseurl: ''
 url: ''
 
@@ -32,6 +32,10 @@ author:
 twitter:
   username: AllaRomasheva
   card: summary_large_image
+
+facebook:
+  publisher: 100024493295482
+  chat: 100930458520274
 
 defaults:
   - scope:
