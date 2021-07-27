@@ -87,9 +87,6 @@
     grid-template-columns: min-content auto min-content;
     display:grid;
     grid-template-areas:var(--grid-footer);
-    @media screen and (max-width:29rem){
-      margin-bottom: 6rem;
-    }
     &-left{
       grid-area:footer-left;
       @extend .fx-row;
