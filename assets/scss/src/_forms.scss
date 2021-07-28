@@ -53,6 +53,10 @@ button{
   cursor:pointer;
 }
 
+button.close{
+  padding:0;
+}
+
 select{
   word-wrap: normal;
   -webkit-appearance: none;
