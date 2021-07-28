@@ -20,6 +20,7 @@ option{
 }
 
 input,button,select,textarea{
+  appearance:none;
   transition:all 0.3s ease-in-out;
   display:inline-flex;
   width:100%;
@@ -36,6 +37,7 @@ input,button,select,textarea{
     box-shadow:0 0 0 0.125rem rgba(78, 76, 189,0.2);
   }
 }
+
 
 input,select,textarea{
   &:valid{
