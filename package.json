@@ -8,6 +8,7 @@
     "browserify": "^16.2.2",
     "browserify-shim": "^3.8.14",
     "del": "^5.1.0",
+    "favicons": "^6.2.2",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-browserify": "^0.5.1",
@@ -19,7 +20,8 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-svg-sprite": "^1.5.0",
     "gulp-touch-fd": "^2.0.0",
-    "gulp-uglify": "^3.0.0"
+    "gulp-uglify": "^3.0.0",
+    "gulp-string-replace": "^1.1.2"
   },
   "browserify-shim": {
     "jquery": "global:$"

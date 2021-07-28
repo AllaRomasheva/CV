@@ -7,6 +7,45 @@ const cleanCSS = require('gulp-clean-css');
 const autoprefixer = require('gulp-autoprefixer');
 const touch = require('gulp-touch-fd');
 
+const favicons = require("favicons").stream;
+const replace = require('gulp-string-replace');
+
+gulp.task('favicon:html', function(){
+    return gulp.src('assets/favicon/index.html').pipe(
+        rename(function () {
+            return {
+                dirname: '',
+                basename: 'favicon',
+                extname: '.liquid'
+            };
+        })
+    ).pipe(gulp.dest('_includes/carcass'))
+});
+
+gulp.task('favicon', function(){
+    const color = '#D63384';
+    return gulp.src('assets/favicon.svg')
+        .pipe(replace('currentColor',color))
+        .pipe(favicons({
+            appName: "My App",
+            appShortName: "App",
+            appDescription: "This is my application",
+            background: color ,
+            path: "/assets/favicon/",
+            url: "https://romasheva.design/",
+            display: "standalone",
+            orientation: "portrait",
+            scope: "/",
+            start_url: "/?homescreen=1",
+            version: 1.0,
+            logging: false,
+            html: "index.html",
+            pipeHTML: true,
+            replace: true
+        })).pipe(gulp.dest('assets/favicon'))
+});
+
+
 gulp.task('scss',function(){
     return gulp.src('./assets/scss/*.scss')
         .pipe(sass().on('error',sass.logError))
@@ -18,7 +57,7 @@ gulp.task('scss',function(){
 });
 
 gulp.task('sprite', function(){
-    return gulp.src('_includes/icons/**/*.svg')
+    return gulp.src('assets/icons/**/*.svg')
         .pipe(svgSprite({
             mode: {
                 stack: {
@@ -33,7 +72,7 @@ gulp.task('sprite', function(){
                 extname: '.svg'
             };
         }))
-        .pipe(gulp.dest('assets/sprite'));
+        .pipe(gulp.dest('assets'));
 });
 
 
