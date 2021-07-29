@@ -38,7 +38,7 @@ function bind(parent,event,selector,callback){
     let callback;
     let html      =  document.documentElement;
     let container = document.scrollingElement;
-    let scroll = 0;
+    let scroll    = 0;
     function scroller() {
         let scrollTop = container.scrollTop;
         let progress  = parseFloat(window.scrollY / ((html.scrollHeight - html.clientHeight) / 100) ).toFixed(2);
@@ -46,6 +46,7 @@ function bind(parent,event,selector,callback){
         html.classList.toggle('scroll', scrollTop > 0);
         html.classList.toggle('scroll-bottom', scrollTop > 0 && (scroll < scrollTop));
         html.classList.toggle('scroll-top', scrollTop > 0 && (scroll > scrollTop));
+        scroll = scrollTop;
     }
     callback = debounce(scroller);
     window.addEventListener('orientationchange', callback, {passive: true});
@@ -61,7 +62,6 @@ function bind(parent,event,selector,callback){
         let html = document.documentElement;
         let scrollbar = window.innerWidth - document.documentElement.clientWidth;
         let state = html.classList.toggle('show-image',this.classList.toggle('active'));
-        let target = ev.target;
         html.classList.toggle('hide-image',state === false);
         html.style.setProperty('--scrollbar', String(scrollbar) );
     }
@@ -76,6 +76,14 @@ function bind(parent,event,selector,callback){
         let state = html.classList.contains('show-nav');
         html.classList.toggle('hide-nav',state === false);
         html.style.setProperty('--scrollbar', String(scrollbar) );
+    });
+
+})();
+
+(function(){
+
+    document.addEventListener('swiped', function(e) {
+        console.log(e.detail.dir); // swipe direction
     });
 
 })();
