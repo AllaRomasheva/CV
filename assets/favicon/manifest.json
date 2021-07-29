@@ -1,7 +1,7 @@
 {
-  "name": "My App",
-  "short_name": "App",
-  "description": "This is my application",
+  "name": "Alla Romasheva CV & Profile",
+  "short_name": "Romasheva CV",
+  "description": null,
   "dir": "auto",
   "lang": "en-US",
   "display": "standalone",

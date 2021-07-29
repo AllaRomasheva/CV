@@ -27,9 +27,8 @@ gulp.task('favicon', function(){
     return gulp.src('assets/favicon.svg')
         .pipe(replace('currentColor',color))
         .pipe(favicons({
-            appName: "My App",
-            appShortName: "App",
-            appDescription: "This is my application",
+            appName: "Alla Romasheva CV & Profile",
+            appShortName: "Romasheva CV",
             background: color ,
             path: "/assets/favicon/",
             url: "https://romasheva.design/",

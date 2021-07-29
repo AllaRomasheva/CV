@@ -79,3 +79,12 @@ function bind(parent,event,selector,callback){
     });
 
 })();
+
+
+// (function(){
+//     if ("serviceWorker" in navigator) {
+//         navigator.serviceWorker.register("/worker.js").then(async function(worker){
+//             worker.sync.register('cache-check');
+//         });
+//     }
+// })();
