@@ -1,11 +1,4 @@
-const gulp     = require('gulp');
-const sass     = require('gulp-sass');
-const svgSprite  =  require('gulp-svg-sprite');
-const rename = require("gulp-rename");
-const sourcemaps = require('gulp-sourcemaps');
-const cleanCSS = require('gulp-clean-css');
-const autoprefixer = require('gulp-autoprefixer');
-const touch = require('gulp-touch-fd');
+const {gulp,svgBundler,scssBundler} = require('gulp2go');
 
 const favicons = require("favicons").stream;
 const through = require('through2');
@@ -18,6 +11,9 @@ gulp.task('favicon', function(){
     const iconFile = 'assets/favicon.svg';
     const iconPath = 'assets/favicon';
     const filePath = '_includes/carcass';
+    const appName  = 'Alla Romasheva CV & Profile';
+    const appShortName = 'Romasheva CV'
+    const url = 'https://romasheva.cv/';
     const filterFile = () => {
         return through.obj( (file,enc, cb) => {
             if( file.relative === filename ){
@@ -31,12 +27,12 @@ gulp.task('favicon', function(){
     return gulp.src(iconFile)
         .pipe(replace('currentColor',color))
         .pipe(favicons({
-            appName: "Alla Romasheva CV & Profile",
-            appShortName: "Romasheva CV",
+            appName: appName,
+            appShortName: appShortName,
             appDescription: "",
             background: color ,
             path: "/assets/favicon/",
-            url: "https://romasheva.design/",
+            url: url,
             display: "standalone",
             orientation: "portrait",
             scope: "/",
@@ -63,32 +59,11 @@ gulp.task('favicon', function(){
 
 
 gulp.task('scss',function(){
-    return gulp.src('./assets/scss/*.scss')
-        .pipe(sass().on('error',sass.logError))
-        .pipe(autoprefixer())
-        .pipe(cleanCSS())
-        .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest('assets/css'))
-        .pipe(touch());
+    return scssBundler('./assets/scss/*.scss','assets/css');
 });
 
 gulp.task('sprite', function(){
-    return gulp.src('assets/icons/**/*.svg')
-        .pipe(svgSprite({
-            mode: {
-                stack: {
-                    sprite: "./sprite.svg"
-                }
-            }
-        }))
-        .pipe(rename(function () {
-            return {
-                dirname: '',
-                basename: 'sprite',
-                extname: '.svg'
-            };
-        }))
-        .pipe(gulp.dest('assets'));
+    return svgBundler('assets/icons/**/*.svg','sprite.svg','assets');
 });
 
 
