@@ -32,6 +32,7 @@ gulp.task('favicon', function(){
             appDescription: "",
             background: color ,
             path: "/assets/favicon/",
+            theme_color: color,
             url: url,
             display: "standalone",
             orientation: "portrait",
