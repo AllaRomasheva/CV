@@ -15,12 +15,12 @@ config.icons.favicons['favicon-96x96.png'] = {
     mask: false
 };
 
+
 gulp.task('favicon', function(){
     const color = '#D63384';
     const filename = 'favicon.liquid';
     const iconFile = 'assets/favicon.svg';
     const iconPath = 'assets/favicon';
-    const filePath = '_includes/carcass';
     const appName  = 'Alla Romasheva CV & Profile';
     const appShortName = 'Romasheva CV'
     const url = 'https://romasheva.cv/';
@@ -64,7 +64,7 @@ gulp.task('favicon', function(){
                 yandex: false
             }
         },(html)=>{
-            console.log(html);
+            console.log(html.join('\n'));
         }))
         .pipe(gulp.dest(iconPath));
 });
