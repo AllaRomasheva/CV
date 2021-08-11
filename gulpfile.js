@@ -1,9 +1,19 @@
 const {gulp,svgBundler,scssBundler} = require('gulp2go');
 
-const favicons = require("favicons").stream;
+const favicons = require("favicons");
+const stream  = favicons.stream;
+const config  = favicons.config;
 const through = require('through2');
 const replace = require('gulp-string-replace');
 const fs = require('fs');
+
+config.icons.favicons['favicon-96x96.png'] = {
+    width: 96,
+    height: 96,
+    transparent: true,
+    rotate: false,
+    mask: false
+};
 
 gulp.task('favicon', function(){
     const color = '#D63384';
@@ -26,7 +36,7 @@ gulp.task('favicon', function(){
     };
     return gulp.src(iconFile)
         .pipe(replace('currentColor',color))
-        .pipe(favicons({
+        .pipe(favicons.stream({
             appName: appName,
             appShortName: appShortName,
             appDescription: "",
@@ -51,12 +61,12 @@ gulp.task('favicon', function(){
                 favicons: true,
                 firefox: true,
                 windows: true,
-                yandex: true
+                yandex: false
             }
+        },(html)=>{
+            console.log(html);
         }))
-        .pipe(gulp.dest(iconPath))
-        .pipe(filterFile())
-        .pipe(gulp.dest(filePath));
+        .pipe(gulp.dest(iconPath));
 });
 
 
