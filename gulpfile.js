@@ -45,7 +45,7 @@ gulp.task('favicon', function(){
             icons: {
                 android: true,
                 appleIcon: true,
-                appleStartup: true,
+                appleStartup: false,
                 coast: true,
                 favicons: true,
                 firefox: true,
