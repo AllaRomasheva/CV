@@ -24,7 +24,6 @@ gulp.task('favicon', function(){
             }
         })
     };
-
     return gulp.src(iconFile)
         .pipe(replace('currentColor',color))
         .pipe(favicons({
