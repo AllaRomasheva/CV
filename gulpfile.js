@@ -33,6 +33,7 @@ gulp.task('favicon', function(){
             background: color ,
             path: "/assets/favicon/",
             theme_color: color,
+            appleStatusBarStyle: 'default',
             url: url,
             display: "standalone",
             orientation: "portrait",
