@@ -24,6 +24,7 @@ gulp.task('favicon', function(){
     const appName  = 'Alla Romasheva CV & Profile';
     const appShortName = 'Romasheva CV'
     const url = 'https://romasheva.cv/';
+    const filePath = url.concat(iconPath);
     const filterFile = () => {
         return through.obj( (file,enc, cb) => {
             if( file.relative === filename ){
@@ -41,7 +42,7 @@ gulp.task('favicon', function(){
             appShortName: appShortName,
             appDescription: "",
             background: color ,
-            path: "https://romasheva.cv/assets/favicon/",
+            path: filePath,
             theme_color: color,
             appleStatusBarStyle: 'default',
             url: url,
