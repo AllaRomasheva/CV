@@ -41,7 +41,7 @@ gulp.task('favicon', function(){
             appShortName: appShortName,
             appDescription: "",
             background: color ,
-            path: "/assets/favicon/",
+            path: "https://romasheva.cv/assets/favicon/",
             theme_color: color,
             appleStatusBarStyle: 'default',
             url: url,
