@@ -1,13 +1,11 @@
 const {gulp,svgBundler,scssBundler} = require('gulp2go');
 
 const favicons = require("favicons");
-const stream  = favicons.stream;
-const config  = favicons.config;
 const through = require('through2');
 const replace = require('gulp-string-replace');
 const fs = require('fs');
 
-config.icons.favicons['favicon-96x96.png'] = {
+favicons.config.icons.favicons['favicon-96x96.png'] = {
     width: 96,
     height: 96,
     transparent: true,
@@ -15,10 +13,9 @@ config.icons.favicons['favicon-96x96.png'] = {
     mask: false
 };
 
-
 gulp.task('favicon', function(){
     const color = '#D63384';
-    const filename = 'favicon.liquid';
+    const filename = 'index.html';
     const iconFile = 'assets/favicon.svg';
     const iconPath = 'assets/favicon';
     const appName  = 'Alla Romasheva CV & Profile';
