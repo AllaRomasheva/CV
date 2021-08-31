@@ -17,6 +17,8 @@ timezone: Europe/Kiev
 markdown: kramdown
 title: ''
 
+markdown_ext: markdown,md,liquid
+
 url:  https://romasheva.cv
 baseurl: ''
 
