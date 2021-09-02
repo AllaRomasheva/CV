@@ -77,6 +77,20 @@ defaults:
         path: '/assets/images/cover.jpg'
         width: '1000'
         height: '600'
+      seo:
+        links:
+          - https://romasheva.com
+          - https://romasheva.cv
+          - https://www.facebook.com/romasheva.design/
+          - https://www.instagram.com/romasheva.design/
+          - https://twitter.com/allaromasheva
+          - https://www.linkedin.com/in/romasheva/
+          - https://www.behance.net/romasheva
+          - https://dribbble.com/romasheva
+          - https://ua.linkedin.com/in/алла-ромашева-051390174
+          - https://github.com/allaromasheva
+          - https://www.pexels.com/@alla-romasheva-3820560/
+
   - scope:
       path: 'ru'
     values:
