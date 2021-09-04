@@ -22,16 +22,6 @@ gulp.task('favicon', function(){
     const appShortName = 'Romasheva CV'
     const url = 'https://romasheva.cv/';
     const filePath = url.concat(iconPath);
-    const filterFile = () => {
-        return through.obj( (file,enc, cb) => {
-            if( file.relative === filename ){
-                fs.unlinkSync( file.path );
-                cb(null, file);
-            } else {
-                cb(null);
-            }
-        })
-    };
     return gulp.src(iconFile)
         .pipe(replace('currentColor',color))
         .pipe(favicons.stream({
@@ -48,8 +38,6 @@ gulp.task('favicon', function(){
             scope: "/",
             start_url: "/?homescreen=1",
             version: 1.0,
-            html: filename ,
-            pipeHTML: true,
             replace: true,
             icons: {
                 android: true,
