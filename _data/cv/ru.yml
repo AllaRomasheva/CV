@@ -204,13 +204,13 @@ work:
       - Сотрудничаю с разработчиками
 
     projects:
-      - image: /images/architect.jpg
+      - image: https://romasheva.com/files/images/architect.jpg
         summary: ARCHITECT
-      - image: /images/policlinica.jpg
+      - image: https://romasheva.com/files/images/policlinica.jpg
         summary: Poliklinika simya
-      - image: /images/mentalh.jpg
+      - image: https://romasheva.com/files/images/mentalh.jpg
         summary: MentallyHealthy
-      - image: /images/studio.jpg
+      - image: https://romasheva.com/files/images/studio.jpg
         summary: Studio of your soul
   ## Employer End
 
@@ -234,13 +234,13 @@ work:
         - Разработала &nbsp; [logo book](https://romasheva.com/files/pdf/uazmi-logobook.pdf).
 
     projects:
-      - image: /images/uazmi1.jpg
+      - image: https://romasheva.com/files/images/uazmi1.jpg
         summary: Главная страница
-      - image: /images/uazmi2.jpg
+      - image: https://romasheva.com/files/images/uazmi2.jpg
         summary: Страница новости
-      - image: /images/uazmi3.jpg
+      - image: https://romasheva.com/files/images/uazmi3.jpg
         summary: Навигация
-      - image: /images/uazmi4.jpg
+      - image: https://romasheva.com/files/images/uazmi4.jpg
         summary: Лента новостей
   ## Employer End
 
@@ -262,13 +262,13 @@ work:
       - Разработала &nbsp; [logo book](https://romasheva.com/files/pdf/barbaricum-logobook.pdf).
 
     projects:
-      - image: /images/barbaricum1.jpg
+      - image: https://romasheva.com/files/images/barbaricum1.jpg
         summary: Главная станица
-      - image: /images/barbaricum2.jpg
+      - image: https://romasheva.com/files/images/barbaricum2.jpg
         summary: Новости
-      - image: /images/barbaricum3.jpg
+      - image: https://romasheva.com/files/images/barbaricum3.jpg
         summary: Археология
-      - image: /images/barbaricum4.jpg
+      - image: https://romasheva.com/files/images/barbaricum4.jpg
         summary: Журнал
   ## Employer End
 
