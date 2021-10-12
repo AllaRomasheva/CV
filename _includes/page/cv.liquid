@@ -33,7 +33,7 @@
             </div>
         </div>
         <div class="cv-header-menu">
-            <a href="#" data-rel="nav" data-nav="" class="cv-link cv-toggle">
+            <a href="#" data-rel="nav" aria-label="Menu" data-nav="" class="cv-link cv-toggle">
                 <span class="icon rotate-on-hover">{% include icon name="fan" %}</span>
             </a>
         </div>
@@ -160,9 +160,9 @@
         </div>
         <div class="cv-footer-right" aria-label="footer-right">
             <span class="nowrap c-secondary mr-2">{% include i18n id="Choose language" %}:</span>
-            <a href="{{ '/uk/' | absolute_url }}" hreflang="uk-UA" class="icon icon-flag ml-2">{% include icon name='flag-uk' %}</a>
-            <a href="{{ '/en/' | absolute_url }}" hreflang="en-US" class="icon icon-flag ml-2">{% include icon name='flag-en' %}</a>
-            <a href="{{ '/ru/' | absolute_url }}" hreflang="ru-RU" class="icon icon-flag ml-2">{% include icon name='flag-ru' %}</a>
+            <a href="{{ '/uk/' | absolute_url }}" aria-label="Українська" hreflang="uk-UA" class="icon icon-flag ml-2">{% include icon name='flag-uk' %}</a>
+            <a href="{{ '/en/' | absolute_url }}" aria-label="English" hreflang="en-US" class="icon icon-flag ml-2">{% include icon name='flag-en' %}</a>
+            <a href="{{ '/ru/' | absolute_url }}" aria-label="Русский" hreflang="ru-RU" class="icon icon-flag ml-2">{% include icon name='flag-ru' %}</a>
         </div>
     </footer>
 </div>
@@ -173,14 +173,14 @@
         <section>
             <h2 class="fx fx-ai-center">
                 <span>{% include i18n id="Hire me" %}</span>
-                <button data-nav="" class="icon close small block ml-auto">{% include icon name="times" %}</button>
+                <button data-nav="" aria-label="Close" class="icon close small block ml-auto">{% include icon name="times" %}</button>
             </h2>
             <article>
                 <p>
                     {% include i18n id="If you have an open project or just need a consultation, you can contact me via" %}
-                    <a href="{{ site.contacts.linkedin }}" rel="me" target="_blank">LinkedIn</a>,
-                    <a href="{{ site.contacts.instagram }}" rel="me" target="_blank">Instagram</a> {% include i18n id="or" %}
-                    <a href="{{ site.contacts.twitter }}" rel="me" target="_blank">Twitter</a>.
+                    <a href="{{ site.contacts.telegram }}" rel="me" target="_blank">Telegram</a>,
+                    <a href="{{ site.contacts.skype }}" rel="me" target="_blank">Skype</a> {% include i18n id="or" %}
+                    <a href="{{ site.contacts.messenger }}" rel="me" target="_blank">Messenger</a>.
                 </p>
             </article>
         </section>
