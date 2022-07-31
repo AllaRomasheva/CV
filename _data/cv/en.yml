@@ -1,5 +1,5 @@
 name: Alla Romasheva
-position: UI/UX Designer
+position: Middle UI/UX Designer
 image: /assets/images/profile.jpg
 
 address: Kyiv, Kyiv region, Ukraine
@@ -17,21 +17,21 @@ phone:
   label: +380 636 778 005
 
 summary: |
-  I am a UI / UX designer, from Kyiv, Ukraine 🇺🇦 I research, develop, create and support design projects
+  UI / UX designer, from Kyiv, Ukraine 🇺🇦 I research, develop, create and support design projects
   for various industries. As well as the creation of marketing products that accompany the project.
 
 ## Skills
 
 skills:
   hard:
-    - Design and development
-    - Wireframing and prototyping
+    - Designing and prototyping
     - Adaptive web design
     - Android and iOS GUI
     - UX and CX methodologies
     - Research analytics
     - Promotion and optimization
     - Composition, color, typography
+    - Basic knowledge of HTML and CSS
   soft:
     - Aesthetic artistic taste
     - Creative thinking
@@ -93,36 +93,25 @@ interests:
 
 experience:
 
-  - name: Frontend
-    list:
-      - name: CSS & HTML
-        value: 3
-      - name: Microdata
-        value: 2
-      - name: Web Standards
-        value: 2
-      - name: JavaScript
-        value: 0
-
   - name: Software
     list:
       - name: Figma
         value: 5
       - name: Sketch
-        value: 4
+        value: 2
       - name: Gravit Designer
-        value: 3
+        value: 2
       - name: Illustrator
         value: 3
       - name: Photoshop
-        value: 2
+        value: 3
       - name: WebStorm IDE
-        value: 2
+        value: 3
 
   - name: Tools & Services
     list:
       - name: Git (GitHub)
-        value: 4
+        value: 3
       - name: Jira / Confluence
         value: 3
 
@@ -186,92 +175,137 @@ profiles:
 
 work:
 
-  ## Employer Start
-  - name: Freelancer
-    url: https://freelance.ua/
-    date_start: 2020-03-18 00:00
-    date_end: null
-    position: UI/UX Designer
-    address: Kyiv, Kyiv region, Ukraine
-    summary: |
-      I develop a design of logos, official pages, sites, brand books, logobooks,
-      design for social networks, advertising products, printed products and more ...
-    duties: |
-
-      - I analyze competitors and CA.
-      - I create a concept design and develop a prototype
-      - I develop adaptive design
-      - I cooperate with developers
-
-    projects:
-      - image: https://romasheva.com/files/images/magicroom.jpg
-        summary: ARCHITECT
-      - image: https://romasheva.com/files/images/policlinica.jpg
-        summary: Poliklinika simya
-      - image: https://romasheva.com/files/images/mentalh.jpg
-        summary: MentallyHealthy
-      - image: https://romasheva.com/files/images/studio.jpg
-        summary: Studio of your soul
-  ## Employer End
 
   ## Employer Start
   - name: UAZMI
-    url: https://uazmi.org/
+    url: htts://uazmi.org/
     date_start: 2021-07-30 00:00
     date_end: 2021-08-24 00:00
-    position: Product Designer
+    position: UI UX Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
-      [Uazmi](https://uazmi.org) - is an aggregator of news on which it is possible to get acquainted with actual
-      events in Ukraine and the world, on politics, show business, culture, sports, science and other fields.
-      Blogs and video blogs are also posted here.
+      [Uazmi](https://uazmi.org) - this is a news aggregator where you can familiarize yourself with the latest
+      events of Ukraine and the world, on the topic of politics, show business, culture, sports, science and other fields.
+      Blogs and vlogs are also posted here.
 
     duties: |
-        - Conducted analysis of competitors and CA.
-        - Developed the architectural structure of the site and easy navigation
-        - Created a sketch and developed a prototype
-        - Developed a clean minimalist design
-        - Developed &nbsp; [logo book](https://romasheva.com/files/pdf/uazmi-logobook.pdf).
+      - Conducted analysis of competitors and CA
+      - Developed the site architecture and convenient navigation
+      - Created a sketch and developed a prototype
+      - Developed a clean minimalist design
+      - Developed &nbsp; [logo book](https://romasheva.com/files/pdf/uazmi-logobook.pdf).
 
     projects:
-      - image: https://romasheva.com/files/images/uazmi1.jpg
-        summary: Home page
-      - image: https://romasheva.com/files/images/uazmi2.jpg
-        summary: News page
-      - image: https://romasheva.com/files/images/uazmi3.jpg
-        summary: Navigation
-      - image: https://romasheva.com/files/images/uazmi4.jpg
-        summary: News feed
+      - image: https://romasheva.com/files/images/uazmi.en.png
+        url: https://www.behance.net/gallery/145912525/UAZMI-news-aggregate
+        summary: cover
+
   ## Employer End
 
   ## Employer Start
   - name: Barbaricum
-    url: https://barbaricum.kiev.ua/
+    url: htts://barbaricum.kiev.ua/
     date_start: 2020-05-25 00:00
     date_end: 2021-07-18 00:00
-    position: Product Designer
+    position: UI UX Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
-      [Barbaricum](https://barbaricum.kiev.ua) - Educational research laboratory of archaeological research.
-      Faculty of History, National Pedagogical University. M.P. Dragomanova.
+      [Barbaricum](https://barbaricum.kiev.ua) - educational research laboratory of archaeological research.
+      Faculty of History of the National Pedagogical University named after M. P. Drahomanov.
 
     duties: |
-      - Developed the architectural structure of the site and easy navigation
+      - Developed the site architecture and convenient navigation
       - Created a sketch and developed a prototype
       - Developed a clean minimalist design
       - Developed &nbsp; [logo book](https://romasheva.com/files/pdf/barbaricum-logobook.pdf).
 
     projects:
-      - image: https://romasheva.com/files/images/barbaricum1.jpg
-        summary: Home page
-      - image: https://romasheva.com/files/images/barbaricum2.jpg
-        summary: News
-      - image: https://romasheva.com/files/images/barbaricum3.jpg
-        summary: Archeology
-      - image: https://romasheva.com/files/images/barbaricum4.jpg
-        summary: Magazine
+      - image: https://romasheva.com/files/images/barbaricum.en.png
+        summary: cover
+        url: https://www.behance.net/gallery/146024101/BARBARICUM
+
   ## Employer End
 
+  ## Employer Start
+  - name: Poliklinika Simya
+    url: https://poliklinikasimya.com/
+    date_start: 2021-05-10 00:00
+    date_end: 2021-06-23 00:00
+    position: UI UX Designer
+    address: Kyiv, Kyiv region, Ukraine
+    summary: |
+      [Policlinica Simya](https://poliklinikasimya.com/) - a modern medical center for the whole family. The center is open
+      in the city of Kyiv, in 2021.
+
+    duties: |
+      - Conducted analysis of direct competitors and target audience
+      - Created a mental profile of the visitor
+      - Developed the site architecture and convenient navigation
+      - Developed a prototype
+      - Picked up colors, painted a set of icons
+      - She developed the design and adaptations
+      - Made a brand book
+      - Created the necessary content for social networks
+      - Developed &nbsp; [brand book](https://romasheva.com/files/pdf/policlinica-brandbook.en.pdf).
+
+    projects:
+      - image: https://romasheva.com/files/images/policlinica.en.png
+        summary: cover
+        url: https://www.behance.net/gallery/137886987/UIUX-Design-polklnka-smja
+
+  ## Employer End
+
+  ## Employer Start
+  - name: Magic Room
+    url: https://www.behance.net/gallery/145595605/Magic-Room
+    date_start: 2021-05-10 00:00
+    date_end: 2021-06-23 00:00
+    position: UI UX Designer
+    address: Kyiv, Kyiv region, Ukraine
+    summary: |
+      [Magic Room](https://www.behance.net/gallery/145595605/Magic-Room) - a private company engaged in repair and
+      arrangement of ecologically clean and safe children's rooms. They have their own production of textiles, toys and
+      furniture.
+
+    duties: |
+      - Conducted analysis of direct competitors and target audience
+      - Created a mental profile of the visitor
+      - Developed the site architecture and convenient navigation
+      - Developed a prototype
+      - She developed the design and adaptations
+
+    projects:
+      - image: https://romasheva.com/files/images/magicroom.en.png
+        summary: cover
+        url: https://www.behance.net/gallery/145595605/Magic-Room
+
+  ## Employer End
+
+  ## Employer Start
+  - name: Amazyngli
+    url: https://www.behance.net/gallery/141260313/Amazingly
+    date_start: 2021-05-10 00:00
+    date_end: 2021-06-23 00:00
+    position: UI UX Designer
+    address: Kyiv, Kyiv region, Ukraine
+    summary: |
+      [Amazingly](https://www.behance.net/gallery/141260313/Amazingly) - design concept for search and selection service
+      masters from the beauty field.
+
+    duties: |
+      - Conducted analysis of direct competitors and target audience
+      - Created a mental profile of visitors
+      - Developed the site architecture and convenient navigation
+      - Developed a prototype
+      - Picked up the colors
+      - Developed the initial design
+
+    projects:
+      - image: https://romasheva.com/files/images/amazingly.en.png
+        summary: cover
+        url: https://www.behance.net/gallery/141260313/Amazingly
+
+  ## Employer End
 
 ## Education
 education:
