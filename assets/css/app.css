@@ -739,7 +739,7 @@ button[type=submit]:hover {
   --grid-sidebar: auto;
   --grid-sidebar-columns:1fr;
   --grid-footer:"footer-left . footer-right";
-  --grid-project:repeat(2,1fr);
+  --grid-project:repeat(1,1fr);
   --grid-tech:repeat(2,1fr);
   --grid-interest:repeat(1,1fr);
 }

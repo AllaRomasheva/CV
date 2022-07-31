@@ -26,13 +26,12 @@
     {{ item.duties | markdownify }}
     {% endif %}
     {% if item.projects %}
-    <h4 class="fs-6">{% include i18n id="Featured projects" %}:</h4>
     <div class="cv-project-list">
         {% for project in item.projects %}
         <div class="cv-project-item">
             <div class="image-thumb-content">
                 <div class="image-thumb-wrapper">
-                    <a href="{{ project.image | absolute_url }}" target="_blank" class="image-thumb-preview">
+                    <a href="{{ project.url | absolute_url }}" target="_blank" class="image-thumb-preview">
                         <img loading="lazy" src="{% include webserv image=project.image width=720 height=405  %}" alt="{{ project.summary }}">
                     </a>
                     <div class="image-thumb-summary">{{ project.summary }}</div>
