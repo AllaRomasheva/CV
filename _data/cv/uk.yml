@@ -25,28 +25,38 @@ summary: |
 skills:
   hard:
     - Проєктування і прототипування
-    - Адаптивний веб-дизайн
-    - GUI Android і iOS
-    - Методології UX і CX
-    - Аналітика досліджень
-    - Просування та оптимізація
+    - Розробка дизайн-системи
+    - Адаптивний респонсивний дизайн
     - Композиція, колір, типографія
-    - Базові знання HTML і CSS
+    - Розуміння методологій UX
+    - Аналіз конкурентів та ЦА
+    - Аналітика досліджень
+    - GUI Android і iOS
+    - Розробка гафіки
+    - Розробка логотипів, брендбуків
+    - Розробка онбордінгу
+    - Створення User Person
+    - Розуміння можливостей HTML і CSS
   soft:
     - Естетичний художній смак
-    - Креативне мислення
-    - Самостійність
+    - Креативне і аналітичне мислення
     - Адаптованість та гнучкість
-    - Презентація продукту
-    - Комунікабельність
-    - Жага знань
+    - Самостійність, тайменеджмент
+    - Правильно сприймаю критику
+    - Здатність аргументувати
+    - Ефективні навички комунікації
+    - Емпатичність
+    - Стресостійкість
+    - Неспинний саморозвиток
+    - Уважність, прискіпливість
+    - Вміння презентувати продукт
 
 ## Languages
 
 languages:
 
   - name: Українська
-    value: 90
+    value: 100
     level: Рідна мова
     color: var(--color-success)
 
@@ -93,7 +103,7 @@ interests:
 
 experience:
 
-  - name: Software
+  - name: Программи
     list:
       - name: Figma
         value: 5
@@ -108,14 +118,14 @@ experience:
       - name: WebStorm IDE
         value: 3
 
-  - name: Tools & Services
+  - name: Інструменти та сервіси
     list:
       - name: Git (GitHub)
         value: 3
       - name: Jira / Confluence
         value: 3
 
-  - name: Operating systems
+  - name: Операційні системи
     list:
       - name: macOS
         value: 4
@@ -178,7 +188,7 @@ work:
   ## Employer Start
   - name: UAZMI
     url: htts://uazmi.org/
-    date_start: 2021-07-30 00:00
+    date_start: 2021-05-30 00:00
     date_end: 2021-08-24 00:00
     position: UI UX Designer
     address: Kyiv, Kyiv region, Ukraine
@@ -204,7 +214,7 @@ work:
   ## Employer Start
   - name: Barbaricum
     url: htts://barbaricum.kiev.ua/
-    date_start: 2020-05-25 00:00
+    date_start: 2021-05-25 00:00
     date_end: 2021-07-18 00:00
     position: UI UX Designer
     address: Kyiv, Kyiv region, Ukraine
@@ -257,8 +267,8 @@ work:
   ## Employer Start
   - name: Magic Room
     url: https://www.behance.net/gallery/145595605/Magic-Room
-    date_start: 2021-05-10 00:00
-    date_end: 2021-06-23 00:00
+    date_start: 2021-12-10 00:00
+    date_end: 2022-01-20 00:00
     position: UI UX Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
@@ -283,7 +293,7 @@ work:
   - name: Amazyngli
     url: https://www.behance.net/gallery/141260313/Amazingly
     date_start: 2021-05-10 00:00
-    date_end: 2021-06-23 00:00
+    date_end: 2022-01-23 00:00
     position: UI UX Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |

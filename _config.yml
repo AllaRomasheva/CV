@@ -58,7 +58,6 @@ defaults:
       layout: 'default'
       alternate:
         en: '/en/'
-        ru: '/ru/'
         uk: '/uk/'
       image:
         path: '/assets/images/cover.jpg'
@@ -82,12 +81,3 @@ defaults:
         links:
           - https://romasheva.com/en/
           - https://romasheva.design/en/
-
-  - scope:
-      path: 'page/ru'
-    values:
-      lang: 'ru'
-      seo:
-        links:
-          - https://romasheva.com/ru/
-          - https://romasheva.design/ru/
