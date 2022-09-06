@@ -188,8 +188,8 @@ work:
   ## Employer Start
   - name: UAZMI
     url: htts://uazmi.org/
-    date_start: 2021-05-30 00:00
-    date_end: 2021-08-24 00:00
+    date_start: 2020-10-30 00:00
+    date_end: 2021-01-24 00:00
     position: UI UX Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
@@ -214,8 +214,8 @@ work:
   ## Employer Start
   - name: Barbaricum
     url: htts://barbaricum.kiev.ua/
-    date_start: 2021-05-25 00:00
-    date_end: 2021-07-18 00:00
+    date_start: 2021-03-25 00:00
+    date_end: 2021-05-18 00:00
     position: UI UX Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
@@ -238,8 +238,8 @@ work:
   ## Employer Start
   - name: Поліклініка Сім'я
     url: https://poliklinikasimya.com/
-    date_start: 2021-05-10 00:00
-    date_end: 2021-06-23 00:00
+    date_start: 2021-04-10 00:00
+    date_end: 2021-05-23 00:00
     position: UI UX Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
@@ -255,7 +255,7 @@ work:
       - Розробила дизайн та адаптиви
       - Оформила брендбук
       - Створила необхідне наповнення для соціальних мереж
-      - Розробила &nbsp; [brand book](https://romasheva.com/files/pdf/Magicroom-brandbook.pdf).
+      - Розробила &nbsp; [brand book](https://romasheva.com/files/pdf/policlinica-brandbook.pdf).
 
     projects:
       - image: https://romasheva.com/files/images/policlinica.png
@@ -268,7 +268,7 @@ work:
   - name: Magic Room
     url: https://www.behance.net/gallery/145595605/Magic-Room
     date_start: 2021-12-10 00:00
-    date_end: 2022-01-20 00:00
+    date_end: 2022-02-20 00:00
     position: UI UX Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
@@ -292,8 +292,8 @@ work:
   ## Employer Start
   - name: Amazyngli
     url: https://www.behance.net/gallery/141260313/Amazingly
-    date_start: 2021-05-10 00:00
-    date_end: 2022-01-23 00:00
+    date_start: 2020-11-10 00:00
+    date_end: 2021-03-23 00:00
     position: UI UX Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
