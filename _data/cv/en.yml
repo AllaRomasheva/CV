@@ -214,13 +214,13 @@ work:
 
   ## Employer Start
   - name: Barbaricum
-    url: htts://barbaricum.kiev.ua/
+    url: htts://barbaricum.org/
     date_start: 2021-03-25 00:00
     date_end: 2021-05-18 00:00
     position: UI UX Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
-      [Barbaricum](https://barbaricum.kiev.ua) - educational research laboratory of archaeological research.
+      [Barbaricum](https://barbaricum.org) - educational research laboratory of archaeological research.
       Faculty of History of the National Pedagogical University named after M. P. Drahomanov.
 
     duties: |
