@@ -213,7 +213,7 @@ work:
 
   ## Employer Start
   - name: Barbaricum
-    url: htts://barbaricum.kiev.ua/
+    url: https://barbaricum.org/
     date_start: 2021-03-25 00:00
     date_end: 2021-05-18 00:00
     position: UI UX Designer
