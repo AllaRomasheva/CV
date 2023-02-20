@@ -9,8 +9,8 @@ website:
   label: romasheva.design
 
 email:
-  url: mailto:hire@romasheva.cv
-  label: hire@romasheva.cv
+  url: mailto:hire@romasheva.design
+  label: hire@romasheva.design
 
 phone:
   url: tel:380636778005
@@ -213,13 +213,13 @@ work:
 
   ## Employer Start
   - name: Barbaricum
-    url: https://barbaricum.org/
+    url: htts://barbaricum.org/
     date_start: 2021-03-25 00:00
     date_end: 2021-05-18 00:00
     position: UI UX Designer
     address: Kyiv, Kyiv region, Ukraine
     summary: |
-      [Barbaricum](https://barbaricum.kiev.ua) - Навчальна науково-дослідна лабораторія археологічних досліджень.
+      [Barbaricum](https://barbaricum.org) - Навчальна науково-дослідна лабораторія археологічних досліджень.
       Історичного факультету Національного педагогічного університету ім. М. П. Драгоманова.
 
     duties: |
