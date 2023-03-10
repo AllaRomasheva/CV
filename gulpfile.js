@@ -66,7 +66,4 @@ gulp.task('watch', () =>{
     gulp.watch(['assets/scss/**/*.scss'], gulp.series(['scss']));
 });
 
-
-
-
 gulp.task('default', gulp.series(['scss','sprite']));
