@@ -377,8 +377,7 @@ body {
   fill: none;
   stroke-width: 0.25rem;
   stroke-linecap: round;
-  -webkit-animation: progress 1s ease-out forwards;
-          animation: progress 1s ease-out forwards;
+  animation: progress 1s ease-out forwards;
 }
 
 .percentage {
@@ -387,12 +386,6 @@ body {
   font-size: 0.5em;
   font-weight: bold;
   text-anchor: middle;
-}
-
-@-webkit-keyframes progress {
-  0% {
-    stroke-dasharray: 0 100;
-  }
 }
 
 @keyframes progress {
@@ -525,7 +518,6 @@ body {
   overflow-y: auto;
   display: grid;
   grid-gap: var(--grid-gap);
-  grid-auto-rows: -webkit-min-content;
   grid-auto-rows: min-content;
 }
 
@@ -700,17 +692,7 @@ button[type=submit]:hover {
 }
 
 :hover > .rotate-on-hover {
-  -webkit-animation: rotation 1s linear infinite;
-          animation: rotation 1s linear infinite;
-}
-
-@-webkit-keyframes rotation {
-  from {
-    -webkit-transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(359deg);
-  }
+  animation: rotation 1s linear infinite;
 }
 
 @keyframes rotation {
@@ -740,7 +722,7 @@ button[type=submit]:hover {
   --grid-sidebar: auto;
   --grid-sidebar-columns:1fr;
   --grid-footer:"footer-left . footer-right";
-  --grid-project:repeat(1,1fr);
+  --grid-project:1fr;
   --grid-tech:repeat(2,1fr);
   --grid-interest:repeat(1,1fr);
 }
@@ -753,7 +735,7 @@ button[type=submit]:hover {
     --grid-layout-columns:16rem auto;
     --grid-header-columns:16rem min-content auto;
     --grid-tech:repeat(2,1fr);
-    --grid-project:repeat(2,1fr);
+    --grid-project:1fr;
     --grid-interest:repeat(2,1fr);
   }
 }
@@ -828,14 +810,12 @@ button[type=submit]:hover {
   grid-area: banner;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .cv-header-info {
   grid-area: info;
   display: grid;
   grid-gap: 0.25rem;
-  grid-auto-rows: -webkit-min-content;
   grid-auto-rows: min-content;
 }
 .cv-header-menu {
@@ -845,21 +825,18 @@ button[type=submit]:hover {
   grid-area: sidebar;
   display: grid;
   grid-gap: var(--grid-gap);
-  grid-auto-rows: -webkit-min-content;
   grid-auto-rows: min-content;
 }
 .cv-content {
   grid-area: content;
   display: grid;
   grid-gap: var(--grid-gap);
-  grid-auto-rows: -webkit-min-content;
   grid-auto-rows: min-content;
 }
 .cv-footer {
   grid-area: footer;
   grid-gap: var(--grid-gap);
   grid-auto-flow: column;
-  grid-template-columns: -webkit-min-content auto -webkit-min-content;
   grid-template-columns: min-content auto min-content;
   display: grid;
   grid-template-areas: var(--grid-footer);
@@ -889,7 +866,6 @@ button[type=submit]:hover {
   list-style: none;
   display: grid;
   grid-gap: 0.5rem;
-  grid-auto-rows: -webkit-min-content;
   grid-auto-rows: min-content;
 }
 @media screen and (max-width: 47rem) {
@@ -907,7 +883,6 @@ button[type=submit]:hover {
   padding: 0;
   display: grid;
   grid-gap: 1rem;
-  grid-auto-rows: -webkit-min-content;
   grid-auto-rows: min-content;
   list-style: none;
 }
@@ -998,7 +973,6 @@ button[type=submit]:hover {
   list-style: none;
   display: grid;
   grid-gap: 0.5rem;
-  grid-auto-rows: -webkit-min-content;
   grid-auto-rows: min-content;
 }
 .cv-employer ul li {
