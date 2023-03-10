@@ -67,5 +67,4 @@ gulp.task('watch', () =>{
 });
 
 
-
 gulp.task('default', gulp.series(['scss','sprite']));
