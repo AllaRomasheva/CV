@@ -17,7 +17,7 @@
   --grid-sidebar: auto;
   --grid-sidebar-columns:1fr;
   --grid-footer:"footer-left . footer-right";
-  --grid-project:repeat(1,1fr);
+  --grid-project:1fr;
   --grid-tech:repeat(2,1fr);
   --grid-interest:repeat(1,1fr);
 }
@@ -31,7 +31,7 @@
     --grid-layout-columns:16rem auto;
     --grid-header-columns:16rem min-content auto;
     --grid-tech:repeat(2,1fr);
-    --grid-project:repeat(2,1fr);
+    --grid-project:1fr;
     --grid-interest:repeat(2,1fr);
   }
 }

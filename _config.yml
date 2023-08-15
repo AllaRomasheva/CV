@@ -60,9 +60,9 @@ defaults:
         en: '/en/'
         uk: '/uk/'
       image:
-        path: '/assets/images/cover.jpg'
-        width: '1000'
-        height: '600'
+        path: '/assets/images/profile.jpg'
+        width: '512'
+        height: '512'
 
   - scope:
       path: 'page/uk'
