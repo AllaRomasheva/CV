@@ -12,7 +12,7 @@ favicons.config.icons.favicons['favicon-96x96.png'] = {
 };
 
 gulp.task('favicon', () =>{
-    const color = '#D63384';
+    const color = '#202020';
     const iconFile = 'assets/favicon.svg';
     const iconPath = 'assets/favicon';
     const appName  = 'Alla Romasheva CV & Profile';
