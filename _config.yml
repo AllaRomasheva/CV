@@ -61,8 +61,8 @@ defaults:
         uk: '/uk/'
       image:
         path: '/assets/images/profile.jpg'
-        width: '512'
-        height: '512'
+        width: '640'
+        height: '640'
 
   - scope:
       path: 'page/uk'
