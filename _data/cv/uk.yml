@@ -68,7 +68,7 @@ languages:
   - name: Англійська
     value: 25
     level: Елементарний
-    color: var(--color-pink)
+    color: var(--color-warning)
 
 
 ## Interests & Hobby
